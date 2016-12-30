@@ -1,15 +1,9 @@
 ---
-displayname: VeriSO (EE/EN)
+displayname: VeriVD
 ilimodels:
-- ilimodel: DM01AVCH24D
+- ilimodel: MD01MOVD
   referenceframe: LV03
   epsg: '21781'
-- ilimodel: DM01AVCH24LV95D
-  referenceframe: LV95
-  epsg: '2056'
-- ilimodel: DM01AVBE11D
-  referenceframe: LV03
-  epsg: '21781'
-- ilimodel: DM01AVBE11LV95D
+- ilimodel: MD01MOVDMN95V24
   referenceframe: LV95
   epsg: '2056'
