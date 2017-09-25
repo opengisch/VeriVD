@@ -1,9 +1,7 @@
 ---
 displayname: VeriVD
+extends: veriso_dm01
 ilimodels:
-- ilimodel: MD01MOVD
-  referenceframe: LV03
-  epsg: '21781'
-- ilimodel: MD01MOVDMN95V24
+- ilimodel: MD01MOVDMN95V24_DE
   referenceframe: LV95
   epsg: '2056'
