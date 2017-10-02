@@ -8,50 +8,50 @@ CREATE TABLE "postprocessing" (
 	apply INTEGER DEFAULT 1,
 	PRIMARY KEY(ogc_fid)
 );
-INSERT INTO `postprocessing` (ogc_fid,sql_query,order,comment,lang,apply) VALUES (1,'CREATE TYPE $$DBSCHEMA.maengel_topic AS ENUM
+INSERT INTO `postprocessing` (ogc_fid,sql_query,order,comment,lang,apply) VALUES (1,'CREATE TYPE $$DBSCHEMA.maengel_topic AS ENUM 
 (
- ''FixpunkteKatgrie1'',
- ''FixpunkteKatgrie2'',
- ''FixpunkteKatgrie3'',
- ''Bodenbedeckung'',
- ''Einzelobjekte'',
- ''Hoehen'',
- ''Nomenklatur'',
- ''Liegenschaften'',
- ''Rohrleitungen'',
- ''Nummerierungsbereiche'',
- ''Gemeindegrenzen'',
- ''Bezirksgrenzen'',
- ''Kantonsgrenzen'',
- ''Landesgrenzen'',
- ''Planeinteilungen'',
- ''TSEinteilung'',
- ''Rutschgebiete'',
- ''PLZOrtschaft'',
- ''Gebaeudeadressen'',
+ ''FixpunkteKatgrie1'', 
+ ''FixpunkteKatgrie2'', 
+ ''FixpunkteKatgrie3'', 
+ ''Bodenbedeckung'', 
+ ''Einzelobjekte'', 
+ ''Hoehen'', 
+ ''Nomenklatur'', 
+ ''Liegenschaften'', 
+ ''Rohrleitungen'', 
+ ''Nummerierungsbereiche'', 
+ ''Gemeindegrenzen'', 
+ ''Bezirksgrenzen'', 
+ ''Kantonsgrenzen'', 
+ ''Landesgrenzen'', 
+ ''Planeinteilungen'', 
+ ''TSEinteilung'', 
+ ''Rutschgebiete'', 
+ ''PLZOrtschaft'', 
+ ''Gebaeudeadressen'', 
  ''Planrahmen''
 );',1,'German enum type for t_maengel_topic.','de',1),
- (2,'CREATE TYPE $$DBSCHEMA.maengel_topic AS ENUM
+ (2,'CREATE TYPE $$DBSCHEMA.maengel_topic AS ENUM 
 (
- ''Points_fixesCategorie1'',
- ''Points_fixesCategorie2'',
- ''Points_fixesCategorie3'',
- ''Couverture_du_sol'',
- ''Objets_divers'',
- ''Altimetrie'',
- ''Nomenclature'',
- ''Biens_fonds'',
- ''Conduites'',
- ''Domaines_numerotation'',
- ''Limites_commune'',
- ''Limites_district'',
- ''Limites_canton'',
- ''Limites_nationales'',
- ''Repartitions_plans'',
- ''RepartitionNT'',
- ''Zones_glissement'',
- ''NPA_Localite'',
- ''Adresses_des_batiments'',
+ ''Points_fixesCategorie1'', 
+ ''Points_fixesCategorie2'', 
+ ''Points_fixesCategorie3'', 
+ ''Couverture_du_sol'', 
+ ''Objets_divers'', 
+ ''Altimetrie'', 
+ ''Nomenclature'', 
+ ''Biens_fonds'', 
+ ''Conduites'', 
+ ''Domaines_numerotation'', 
+ ''Limites_commune'', 
+ ''Limites_district'', 
+ ''Limites_canton'', 
+ ''Limites_nationales'', 
+ ''Repartitions_plans'', 
+ ''RepartitionNT'', 
+ ''Zones_glissement'', 
+ ''NPA_Localite'', 
+ ''Adresses_des_batiments'', 
  ''Bords_de_plan''
 );',1,'French enum type for t_maengel_topic','fr',1),
  (3,'CREATE TABLE $$DBSCHEMA.t_maengel_topics
@@ -337,7 +337,7 @@ GRANT ALL ON TABLE $$DBSCHEMA.z_grenzen TO $$USER;',1,'Was in table tables',NULL
   tid character varying,
   entstehung character varying,
   identifikator character varying,
-  geometrie geometry,
+  geometrie geometry(Point,$$EPSG),
   lagegen double precision,
   lagezuv integer,
   lagezuv_txt character varying,
@@ -351,10 +351,10 @@ GRANT ALL ON TABLE $$DBSCHEMA.z_grenzen TO $$USER;',1,'Was in table tables',NULL
   gem_bfs integer,
   los integer,
   lieferdatum date,
-  CONSTRAINT z_v_gp_ts_2_pkey PRIMARY KEY (ogc_fid )
+  CONSTRAINT z_v_gp_ts_pkey PRIMARY KEY (ogc_fid )
 )
 WITH (
-  OIDS=FALSE
+  OIDS=TRUE
 );
 ALTER TABLE $$DBSCHEMA.z_v_gp_ts
   OWNER TO $$USER;
@@ -1287,9 +1287,8 @@ SELECT
 WHERE
   st_intersects(nomenklatur_flurname.geometrie, liegenschaften_liegenschaft.geometrie)=true and
   ST_IsValid(st_intersection(nomenklatur_flurname.geometrie, liegenschaften_liegenschaft.geometrie))=true',3,'Was in table inserts',NULL,1),
- (91,'INSERT INTO $$DBSCHEMA.z_nr_gs (nbident,nummer,egris_egrid,gueltigkeit,gueltigkeit_txt,vollstaendigkeit,vollstaendigkeit_txt,art,art_txt,gesamteflaechenmass,nummerteilgrundstueck,Pos,lin)
+ (91,'INSERT INTO $$DBSCHEMA.z_nr_gs (nummer,egris_egrid,gueltigkeit,gueltigkeit_txt,vollstaendigkeit,vollstaendigkeit_txt,art,art_txt,gesamteflaechenmass,nummerteilgrundstueck)
 SELECT DISTINCT
-  liegenschaften_grundstueck.nbident,
   liegenschaften_grundstueck.nummer,
   liegenschaften_grundstueck.egris_egrid,
   liegenschaften_grundstueck.gueltigkeit,
@@ -1299,20 +1298,15 @@ SELECT DISTINCT
   liegenschaften_grundstueck.art,
   liegenschaften_grundstueck.art_txt,
   liegenschaften_grundstueck.gesamteflaechenmass,
-  liegenschaften_selbstrecht.nummerteilgrundstueck,
-  liegenschaften_teilsrpos.pos,
-  (case(st_contains(liegenschaften_selbstrecht.geometrie,liegenschaften_teilsrpos.pos))when false then 1 else 0 end) as Lin
+  liegenschaften_selbstrecht.nummerteilgrundstueck
 FROM
   $$DBSCHEMA.liegenschaften_selbstrecht,
-  $$DBSCHEMA.liegenschaften_grundstueck,
-  $$DBSCHEMA.liegenschaften_teilsrpos
+  $$DBSCHEMA.liegenschaften_grundstueck
 WHERE
   liegenschaften_grundstueck.gesamteflaechenmass >0 AND
-  liegenschaften_grundstueck.ogc_fid::text = liegenschaften_selbstrecht.selbstrecht_von::text AND
-  liegenschaften_teilsrpos.teilsrpos_von::text = liegenschaften_selbstrecht.ogc_fid::text',3,'Was in table inserts',NULL,0),
- (92,'INSERT INTO $$DBSCHEMA.z_nr_gs (nbident,nummer,egris_egrid,gueltigkeit,gueltigkeit_txt,vollstaendigkeit,vollstaendigkeit_txt,art,art_txt,gesamteflaechenmass,nummerteilgrundstueck,Pos,lin)
+  liegenschaften_grundstueck.ogc_fid::text = liegenschaften_selbstrecht.selbstrecht_von::text',3,'Was in table inserts',NULL,1),
+ (92,'INSERT INTO $$DBSCHEMA.z_nr_gs (nummer,egris_egrid,gueltigkeit,gueltigkeit_txt,vollstaendigkeit,vollstaendigkeit_txt,art,art_txt,gesamteflaechenmass,nummerteilgrundstueck)
 SELECT DISTINCT
-  liegenschaften_grundstueck.nbident,
   liegenschaften_grundstueck.nummer,
   liegenschaften_grundstueck.egris_egrid,
   liegenschaften_grundstueck.gueltigkeit,
@@ -1322,22 +1316,17 @@ SELECT DISTINCT
   liegenschaften_grundstueck.art,
   liegenschaften_grundstueck.art_txt,
   liegenschaften_grundstueck.gesamteflaechenmass,
-  liegenschaften_liegenschaft.nummerteilgrundstueck,
-  liegenschaften_teillspos.pos,
-  (case(st_contains(liegenschaften_liegenschaft.geometrie,liegenschaften_teillspos.pos)) when false Then 1 else 0 end) as Lin
+  liegenschaften_liegenschaft.nummerteilgrundstueck
 FROM
   $$DBSCHEMA.liegenschaften_liegenschaft,
-  $$DBSCHEMA.liegenschaften_grundstueck,
-  $$DBSCHEMA.liegenschaften_teillspos
+  $$DBSCHEMA.liegenschaften_grundstueck
 WHERE
   liegenschaften_grundstueck.gesamteflaechenmass >0 AND
-  liegenschaften_grundstueck.ogc_fid::text = liegenschaften_liegenschaft.liegenschaft_von::text AND
-  liegenschaften_teillspos.teillspos_von::text = liegenschaften_liegenschaft.ogc_fid::text',3,'Was in table inserts',NULL,0),
- (93,'INSERT INTO $$DBSCHEMA.z_objektnummer_pos (nummer,gwr_egid,nbident,pos,ori,groesse,vali_txt,vali,hali_txt,hali,groesse_txt)
+  liegenschaften_grundstueck.ogc_fid::text = liegenschaften_liegenschaft.liegenschaft_von::text',3,'Was in table inserts',NULL,1),
+ (93,'INSERT INTO $$DBSCHEMA.z_objektnummer_pos (nummer,gwr_egid,pos,ori,groesse,vali_txt,vali,hali_txt,hali,groesse_txt)
 SELECT
   einzelobjekte_objektnummer.nummer,
   einzelobjekte_objektnummer.gwr_egid,
-  einzelobjekte_objektnummer.nbident,
   einzelobjekte_objektnummerpos.pos,
   einzelobjekte_objektnummerpos.ori,
   einzelobjekte_objektnummerpos.groesse,
@@ -1350,12 +1339,11 @@ FROM
   $$DBSCHEMA.einzelobjekte_objektnummer,
   $$DBSCHEMA.einzelobjekte_objektnummerpos
 WHERE
-  einzelobjekte_objektnummer.ogc_fid::text = einzelobjekte_objektnummerpos.objektnummerpos_von::text',3,'Was in table inserts',NULL,0),
- (94,'INSERT INTO $$DBSCHEMA.z_gebaeudenummer_pos (nummer,gwr_egid,nbident,pos,ori,groesse,vali_txt,vali,hali_txt,hali,groesse_txt)
+  einzelobjekte_objektnummer.ogc_fid::text = einzelobjekte_objektnummerpos.objektnummerpos_von::text',3,'Was in table inserts',NULL,1),
+ (94,'INSERT INTO $$DBSCHEMA.z_gebaeudenummer_pos (nummer,gwr_egid,pos,ori,groesse,vali_txt,vali,hali_txt,hali,groesse_txt)
 SELECT
   bodenbedeckung_gebaeudenummer.nummer,
   bodenbedeckung_gebaeudenummer.gwr_egid,
-  bodenbedeckung_gebaeudenummer.nbident,
   bodenbedeckung_gebaeudenummerpos.pos,
   bodenbedeckung_gebaeudenummerpos.ori,
   bodenbedeckung_gebaeudenummerpos.groesse,
@@ -1368,7 +1356,7 @@ FROM
   $$DBSCHEMA.bodenbedeckung_gebaeudenummer,
   $$DBSCHEMA.bodenbedeckung_gebaeudenummerpos
 WHERE
-  bodenbedeckung_gebaeudenummer.ogc_fid::text = bodenbedeckung_gebaeudenummerpos.gebaeudenummerpos_von::text',3,'Was in table inserts',NULL,0),
+  bodenbedeckung_gebaeudenummer.ogc_fid::text = bodenbedeckung_gebaeudenummerpos.gebaeudenummerpos_von::text',3,'Was in table inserts',NULL,1),
  (95,'INSERT INTO $$DBSCHEMA.t_gebaeudeadressen_spinnennetz (ogc_fid, tid, line, hausnummer)
 SELECT distinct a.ogc_fid, a.t_ili_tid, ST_GeometryFromText((((((((''LINESTRING(''::text || ST_X(a.lage)::text) || '' ''::text) || ST_Y(a.lage)::text) || '',''::text) || ST_X(c.pos)::text) || '' ''::text) || ST_Y(c.pos)::text) || '')''::text, $$EPSG) AS line, a.hausnummer
 
@@ -1549,18 +1537,18 @@ FROM
  SELECT a.ogc_fid as basket_ogc_fid, substring(topic, position(''.'' in topic) + 1) as topic
  FROM $$DBSCHEMA.t_ili2db_import_basket as a, $$DBSCHEMA.t_ili2db_basket as b
  WHERE a.basket = b.ogc_fid
-
+ 
 ) as basket,
 (
  SELECT ogc_fid, import_basket, class_name, sql_name, ili_name, g.f_geometry_column
  FROM
  (
   SELECT d.ogc_fid, d.import_basket, e.class_name, e.sql_name, e.ili_name
-  FROM
+  FROM 
   $$DBSCHEMA.t_ili2db_import_object as d,
   (
    SELECT substring(class_name, position(''.'' in class_name) + 1) as class_name, lower(sqlname) as sql_name, iliname as ili_name
-   FROM
+   FROM 
    (
     SELECT substring("class", position(''.'' in "class") + 1) as class_name, sqlname, iliname
     FROM $$DBSCHEMA.t_ili2db_import_object as a, $$DBSCHEMA.t_ili2db_classname as b
@@ -1569,21 +1557,21 @@ FROM
   ) as e
   WHERE e.ili_name = d."class"
  ) as classes
- LEFT OUTER JOIN
+ LEFT OUTER JOIN 
  (
-  SELECT *
+  SELECT * 
   FROM geometry_columns
   WHERE f_table_schema = ''$$DBSCHEMA''
  ) as g
  ON classes.sql_name = g.f_table_name
  ORDER BY classes.import_basket
-) as foo
+) as foo 
 WHERE basket.basket_ogc_fid = foo.import_basket
 ORDER BY basket_ogc_fid, class_name
 
 ) as bar,
 (
- SELECT a.attname, i.indrelid
+ SELECT a.attname, i.indrelid 
  FROM pg_index as i
  JOIN pg_attribute a ON a.attrelid = i.indrelid AND a.attnum = ANY(i.indkey)
  WHERE i.indisprimary
