@@ -1,0 +1,183 @@
+layer_attribute:
+  BB Symbole:
+    altori: FR_altori
+    art: FR_art
+    art_txt: FR_art_txt
+    boflaechesymbol_von: FR_boflaechesymbol_von
+    ogc_fid: FR_ogc_fid
+    ori: FR_ori
+  "BB-Fl\xE4chen TS1/TS2 kleiner 100qm":
+    bb_art: FR_bb_art
+    bb_art_txt: FR_bb_art_txt
+    bb_ogc_fid: FR_bb_ogc_fid
+    flaeche: FR_flaeche
+    ogc_fid: FR_ogc_fid
+    ts_art: FR_ts_art
+    ts_art_txt: FR_ts_art_txt
+    ts_ogc_fid: FR_ts_ogc_fid
+  "BB-Fl\xE4chen TS3 kleiner 1000qm":
+    bb_art: FR_bb_art
+    bb_art_txt: FR_bb_art_txt
+    bb_ogc_fid: FR_bb_ogc_fid
+    flaeche: FR_flaeche
+    ogc_fid: FR_ogc_fid
+    ts_art: FR_ts_art
+    ts_art_txt: FR_ts_art_txt
+    ts_ogc_fid: FR_ts_ogc_fid
+  "BB-Fl\xE4chen TS4/TS5 kleiner 2500qm":
+    bb_art: FR_bb_art
+    bb_art_txt: FR_bb_art_txt
+    bb_ogc_fid: FR_bb_ogc_fid
+    flaeche: FR_flaeche
+    ogc_fid: FR_ogc_fid
+    ts_art: FR_ts_art
+    ts_art_txt: FR_ts_art_txt
+    ts_ogc_fid: FR_ts_ogc_fid
+  "BB-Fl\xE4chen kleiner 10qm pro LS":
+    art: FR_art
+    art_txt: FR_art_txt
+    bb_ogc_fid: FR_bb_ogc_fid
+    bb_qualitaet: FR_bb_qualitaet
+    bb_qualitaet_txt: FR_bb_qualitaet_txt
+    flaeche: FR_flaeche
+    flaechenmass: FR_flaechenmass
+    liegenschaft_von: FR_liegenschaft_von
+    ls_flaeche: FR_ls_flaeche
+    ls_ogc_fid: FR_ls_ogc_fid
+    nummerteilgrundstueck: FR_nummerteilgrundstueck
+    ogc_fid: FR_ogc_fid
+  BEGID (BB):
+    gebaeudenummer_von: FR_gebaeudenummer_von
+    gem_bfs: FR_gem_bfs
+    groesse: FR_groesse
+    groesse_txt: FR_groesse_txt
+    gwr_egid: FR_gwr_egid
+    hali: FR_hali
+    hali_txt: FR_hali_txt
+    lieferdatum: FR_lieferdatum
+    los: FR_los
+    nbident: FR_nbident
+    nummer: FR_nummer
+    ogc_fid: FR_ogc_fid
+    ori: FR_ori
+    tid: FR_tid
+    vali: FR_vali
+    vali_txt: FR_vali_txt
+  Bodenbedeckung:
+    art: FR_art
+    art_txt: FR_art_txt
+    entstehung: FR_entstehung
+    ogc_fid: FR_ogc_fid
+    qualitaet: FR_qualitaet
+    qualitaet_txt: FR_qualitaet_txt
+    t_ili_tid: FR_t_ili_tid
+    ufid: FR_ufid
+  Bodenbedeckungskanten:
+    art: FR_art
+    art_txt: FR_art_txt
+    entstehung: FR_entstehung
+    ogc_fid: FR_ogc_fid
+    qualitaet: FR_qualitaet
+    qualitaet_txt: FR_qualitaet_txt
+    t_ili_tid: FR_t_ili_tid
+    ufid: FR_ufid
+  "Geb\xE4ude kleiner 12qm":
+    art: FR_art
+    art_txt: FR_art_txt
+    entstehung: FR_entstehung
+    ogc_fid: FR_ogc_fid
+    qualitaet: FR_qualitaet
+    qualitaet_txt: FR_qualitaet_txt
+    t_ili_tid: FR_t_ili_tid
+    ufid: FR_ufid
+  Liegenschaften:
+    flaechenmass: FR_flaechenmass
+    liegenschaft_von: FR_liegenschaft_von
+    nummerteilgrundstueck: FR_nummerteilgrundstueck
+    ogc_fid: FR_ogc_fid
+    superficierf: FR_superficierf
+    t_ili_tid: FR_t_ili_tid
+    ufid: FR_ufid
+  Objektname:
+    aname: FR_aname
+    ogc_fid: FR_ogc_fid
+  Toleranzstufen:
+    art: FR_art
+    art_txt: FR_art_txt
+    gueltigereintrag: FR_gueltigereintrag
+    identifikator: FR_identifikator
+    nbident: FR_nbident
+    ogc_fid: FR_ogc_fid
+    t_ili_tid: FR_t_ili_tid
+    ufid: FR_ufid
+  Wald kleiner 800qm:
+    art: FR_art
+    art_txt: FR_art_txt
+    entstehung: FR_entstehung
+    ogc_fid: FR_ogc_fid
+    qualitaet: FR_qualitaet
+    qualitaet_txt: FR_qualitaet_txt
+    t_ili_tid: FR_t_ili_tid
+    ufid: FR_ufid
+  Wasserbecken kleiner 20qm:
+    art: FR_art
+    art_txt: FR_art_txt
+    entstehung: FR_entstehung
+    ogc_fid: FR_ogc_fid
+    qualitaet: FR_qualitaet
+    qualitaet_txt: FR_qualitaet_txt
+    t_ili_tid: FR_t_ili_tid
+    ufid: FR_ufid
+layer_name:
+  all:
+    BB Symbole: FR_BB Symbole
+    "BB-Fl\xE4chen TS1/TS2 kleiner 100qm": "FR_BB-Fl\xE4chen TS1/TS2 kleiner 100qm"
+    "BB-Fl\xE4chen TS3 kleiner 1000qm": "FR_BB-Fl\xE4chen TS3 kleiner 1000qm"
+    "BB-Fl\xE4chen TS4/TS5 kleiner 2500qm": "FR_BB-Fl\xE4chen TS4/TS5 kleiner 2500qm"
+    "BB-Fl\xE4chen kleiner 10qm pro LS": "FR_BB-Fl\xE4chen kleiner 10qm pro LS"
+    BEGID (BB): FR_BEGID (BB)
+    Bodenbedeckung: FR_Bodenbedeckung
+    Bodenbedeckungskanten: FR_Bodenbedeckungskanten
+    "Geb\xE4ude kleiner 12qm": "FR_Geb\xE4ude kleiner 12qm"
+    Liegenschaften: FR_Liegenschaften
+    Objektname: FR_Objektname
+    Toleranzstufen: FR_Toleranzstufen
+    Wald kleiner 800qm: FR_Wald kleiner 800qm
+    Wasserbecken kleiner 20qm: FR_Wasserbecken kleiner 20qm
+style_category:
+  BB Symbole:
+    Gewaesser.Schilfguertel: FR_Gewaesser.Schilfguertel
+    Gewaesser.fliessendes: FR_Gewaesser.fliessendes
+    Gewaesser.stehendes: FR_Gewaesser.stehendes
+    befestigt.Wasserbecken: FR_befestigt.Wasserbecken
+    humusiert.Intensivkultur.Reben: FR_humusiert.Intensivkultur.Reben
+    "ung\xFCltiger Wert": "FR_ung\xFCltiger Wert"
+  Bodenbedeckung:
+    Befestigt Bahn: FR_Befestigt Bahn
+    Befestigt Flugplatz: FR_Befestigt Flugplatz
+    Befestigt Strasse Weg: FR_Befestigt Strasse Weg
+    Befestigt Trottoir: FR_Befestigt Trottoir
+    Befestigt Verkehrsinsel: FR_Befestigt Verkehrsinsel
+    Befestigt Wasserbecken: FR_Befestigt Wasserbecken
+    Befestigt uebrige befestigte: FR_Befestigt uebrige befestigte
+    Bestockt Wytweide dicht: FR_Bestockt Wytweide dicht
+    Bestockt Wytweide offen: FR_Bestockt Wytweide offen
+    Bestockt geschlossener Wald: FR_Bestockt geschlossener Wald
+    Bestockt uebrige bestockte: FR_Bestockt uebrige bestockte
+    FALSCHE ART: FR_FALSCHE ART
+    Gebaeude: FR_Gebaeude
+    Gewaesser Schilfguertel: FR_Gewaesser Schilfguertel
+    Gewaesser fliessendes: FR_Gewaesser fliessendes
+    Gewaesser stehendes: FR_Gewaesser stehendes
+    Humusiert Acker Wiese Weide: FR_Humusiert Acker Wiese Weide
+    Humusiert Gartenanlage: FR_Humusiert Gartenanlage
+    Humusiert Hoch Flachmoor: FR_Humusiert Hoch Flachmoor
+    Humusiert Intensivkultur Reben: FR_Humusiert Intensivkultur Reben
+    Humusiert Intensivkultur uebrige Intensivkultur: FR_Humusiert Intensivkultur uebrige
+      Intensivkultur
+    Humusiert uebrige humusierte: FR_Humusiert uebrige humusierte
+    Vegetationslos Abbau Deponie: FR_Vegetationslos Abbau Deponie
+    Vegetationslos Fels: FR_Vegetationslos Fels
+    Vegetationslos Geroell Sand: FR_Vegetationslos Geroell Sand
+    Vegetationslos Gletscher Firn: FR_Vegetationslos Gletscher Firn
+    Vegetationslos uebrige vegetationslose: FR_Vegetationslos uebrige vegetationslose
