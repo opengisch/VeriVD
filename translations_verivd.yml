@@ -1200,14 +1200,14 @@ layer_group:
     EO Allgemein: FR_EO Allgemein
     EO Flaechenkriterien: FR_EO Flaechenkriterien
     FixpunkteKategorie12: FR_FixpunkteKategorie12
-    FixpunkteKategorie3: FR_FixpunkteKategorie3
+    FixpunkteKategorie3: Points fixes categorie3
     Flächendifferenzen: FR_Flächendifferenzen
     GP ausserhalb: FR_GP ausserhalb
     GP aussherhalb: FR_GP aussherhalb
     Gebaeudeadressen - Basislayer: FR_Gebaeudeadressen - Basislayer
     Gebaeudeadressen - Checklayer: FR_Gebaeudeadressen - Checklayer
     Gebaeudeadressen - Lokalisationstest: FR_Gebaeudeadressen - Lokalisationstest
-    Gemeindegrenzen: FR_Gemeindegrenzen
+    Gemeindegrenzen: Limites commune
     Grenzpunkte: FR_Grenzpunkte
     Isolierte_Uebrigen_Gebaeudeteile: FR_Isolierte_Uebrigen_Gebaeudeteile
     LS Entstehung: FR_LS Entstehung
@@ -1217,7 +1217,7 @@ layer_group:
     Orthofoto: FR_Orthofoto
     Plan-Einteilung: FR_Plan-Einteilung
     Qualität BB/EO: FR_Qualität BB/EO
-    Rohrleitungen: FR_Rohrleitungen
+    Rohrleitungen: Conduites
     Toleranzstufen: FR_Toleranzstufen
 layer_name:
   all:
@@ -1230,7 +1230,7 @@ layer_name:
     BEGID (EO): FR_BEGID (EO)
     Benanntes Gebiet: FR_Benanntes Gebiet
     Benanntes Gebiet Lokalisationstest: FR_Benanntes Gebiet Lokalisationstest
-    Bodenbedeckung: FR_Bodenbedeckung
+    Bodenbedeckung: Couverture du sol
     Bodenbedeckungskanten: FR_Bodenbedeckungskanten
     EO Flaechenelemete: FR_EO Flaechenelemete
     EO Linienelemente: FR_EO Linienelemente
@@ -1254,22 +1254,22 @@ layer_name:
     GP's ausserhalb Grenzlinien: FR_GP's ausserhalb Grenzlinien
     GP-Genauigkeiten schlechter AV93-Qalitaet: FR_GP-Genauigkeiten schlechter AV93-Qalitaet
     GRUDIS-LS-Aufruf: FR_GRUDIS-LS-Aufruf
-    Gebaeudeeingang: FR_Gebaeudeeingang
+    Gebaeudeeingang: Entree batiment
     Gebaeudeeingang Lokalisationstest: FR_Gebaeudeeingang Lokalisationstest
     Gebäude > 12m2 ohne Eingang: FR_Gebäude > 12m2 ohne Eingang
     Gebäude kleiner 12qm: FR_Gebäude kleiner 12qm
     Geländename: FR_Geländename
-    Gemeinde: FR_Gemeinde
-    Gemeindegrenze: FR_Gemeindegrenze
+    Gemeinde: Commune
+    Gemeindegrenze: Limite commune
     Gemeindegrenzen-swisstopo: FR_Gemeindegrenzen-swisstopo
     Gewässernetz (BB): FR_Gewässernetz (BB)
     Grst-Nr: FR_Grst-Nr
     Grundstuecke: FR_Grundstuecke
     Grundstücke: FR_Grundstücke
-    HFP1: FR_HFP1
-    HFP2: FR_HFP2
+    HFP1: PFA1
+    HFP2: PFA2
     HGP's ausserhalb Grenzlinien: FR_HGP's ausserhalb Grenzlinien
-    HausnummerPos: FR_HausnummerPos
+    HausnummerPos: PosNumero maison
     HausnummerPos Lokalisationstest: FR_HausnummerPos Lokalisationstest
     Hilfslinie: FR_Hilfslinie
     Hochspannungsfreileitung: FR_Hochspannungsfreileitung
@@ -1287,29 +1287,29 @@ layer_name:
     Kantonsgrenze: FR_Kantonsgrenze
     Kuerzeste Linie Lokalisationstest: FR_Kuerzeste Linie Lokalisationstest
     Kürzeste Linie: FR_Kürzeste Linie
-    LFP1: FR_LFP1
+    LFP1: PFP1
     LFP1 + LFP2 Schweiz: FR_LFP1 + LFP2 Schweiz
-    LFP2: FR_LFP2
-    LFP3: FR_LFP3
+    LFP2: PFP2
+    LFP3: PFP3
     LFP3 Nachführung: FR_LFP3 Nachführung
     LFP3 ausserhalb Gemeinde: FR_LFP3 ausserhalb Gemeinde
     LFP3 pro Toleranzstufe: FR_LFP3 pro Toleranzstufe
     Label ausserhalb Gs: FR_Label ausserhalb Gs
     Lagefixpunkte 1: FR_Lagefixpunkte 1
     Lagefixpunkte 2: FR_Lagefixpunkte 2
-    Liegenschaften: FR_Liegenschaften
+    Liegenschaften: Biens fonds
     Liegenschaften Qualitaet: FR_Liegenschaften Qualitaet
     Liegenschaften mit Flächendifferenzen: FR_Liegenschaften mit Flächendifferenzen
-    Lokalisation: FR_Lokalisation
-    LokalisationsName: FR_LokalisationsName
-    LokalisationsNamePos: FR_LokalisationsNamePos
+    Lokalisation: Localisation
+    LokalisationsName: Nom localisation
+    LokalisationsNamePos: PosNom localisation
     NK Mini-Flächen (Punkt): FR_NK Mini-Flächen (Punkt)
     Nr Gs(LS): FR_Nr Gs(LS)
     Nr Gs(LS-Teil): FR_Nr Gs(LS-Teil)
     Nr Gs(SDR Teil): FR_Nr Gs(SDR Teil)
     Nr Gs(SDR): FR_Nr Gs(SDR)
-    Objektname: FR_Objektname
-    Ortsname: FR_Ortsname
+    Objektname: Nom objet
+    Ortsname: Nom de lieu
     PLZ Ortschaft: FR_PLZ Ortschaft
     Plan-Nr. Pos: FR_Plan-Nr. Pos
     Planeinteilung: FR_Planeinteilung
@@ -1323,7 +1323,7 @@ layer_name:
     SDR: FR_SDR
     SDR Qualitaet: FR_SDR Qualitaet
     Selbstrecht mit Flaechendifferenzen: FR_Selbstrecht mit Flaechendifferenzen
-    Signalpunkt: FR_Signalpunkt
+    Signalpunkt: Signal
     Spinnennetz: FR_Spinnennetz
     Strassenstueck (anfangspunkt): FR_Strassenstueck (anfangspunkt)
     Strassenstueck (anfangspunkt) Lokalisationstest: FR_Strassenstueck (anfangspunkt)
