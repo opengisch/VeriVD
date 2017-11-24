@@ -2,43 +2,61 @@
 baselayer:
 - type: wms
   title:
-    de: Orthofoto (RGB)
-    fr: Orthophoto (RGB)
-  url: http://mydb.org/wms/orthofoto_aktuell
-  layers: ch.orthofoto
-  format: image/jpeg
-- type: wmts
+    de: Fixpunkte vom FPDS
+    fr: Point fix (FPDS)
+  url: http://wms.geo.admin.ch/?
+  layers: ch.swisstopo.fixpunkte-lfp1,ch.swisstopo.fixpunkte-lfp2,ch.swisstopo.fixpunkte-hfp1,ch.swisstopo.fixpunkte-hfp2
+  format: image/png
+- type: wms
   title:
-    de: Orthofoto (CIR)
-    fr: Orthophoto (CIR)
-  url: http://mydb.org/wmts/orthofoto_aktuell
-  layers: ch.orthofoto.cir
+    de: GWR
+    fr: GWR
+  url: http://wms.geo.admin.ch/?
+  layers: ch.bfs.gebaeude_wohnungs_register
+  format: image/png
+- type: wms
+  title:
+    de: swissimage (50%)
+    fr: swissimage (50%)
+  url: http://wms.swisstopo.admin.ch/wss/httpauth/swisstopowms?
+  layers: ch.swisstopo.swissimage
   format: image/jpeg
-
-- type: postgres
-  title: AV - Nomenklatur Flurnamen
-  params:
-    dbhost: mydb.org
-    dbport: 5432
-    dbname: foodb
-    dbschema: fooschema
-    dbuser: foo
-    dbpwd: foo
-    dbadmin: bar
-    dbadminpwd: bar
-  featuretype: flurn
-  geom: wkb_geometry
-  key: ogc_fid
-  sql: 'archive=0 AND gem_bfs=2495'
-  readonly: 1
-  style: test/test_poly.qml
-
-- type: ogr
-  title: SHP Flurnamen
-  url: /home/marco/gis_test_data/qgis_sample_data/shapefiles/regions.shp
-  style: test/test_poly.qml
-
-- type: gdal
-  title: TIF Flurnamen
-  url: /home/marco/gis_test_data/qgis_sample_data/raster/SR_50M_alaska_nad.tif
-  style: test/test_poly.qml
+  style: baselayer/swissimage_50.qml
+- type: wms
+  title:
+    de: swissimage (100%)
+    fr: swissimage (100%)
+  url: http://wms.swisstopo.admin.ch/wss/httpauth/swisstopowms?
+  layers: ch.swisstopo.swissimage
+  format: image/jpeg
+- type: wms
+  title:
+    de: PK25
+    fr: PK25
+  url: http://wms.swisstopo.admin.ch/wss/httpauth/swisstopowms?
+  layers: ch.swisstopo.pixelkarte-farbe
+  format: image/jpeg
+  style: baselayer/swissimage_50.qml
+- type: wms
+  title:
+    de: Relief (swisstopo)
+    fr: Relief (swisstopo)
+  url: http://wms.swisstopo.admin.ch/wss/httpauth/swisstopowms?
+  layers: ch.swisstopo.swissalti3d-reliefschattierung
+  format: image/jpeg
+  style: baselayer/swissimage_50.qml
+- type: wms
+  title:
+    de: TLM
+    fr: TLM
+  url: http://wms.swisstopo.admin.ch/wss/httpauth/swisstopowms?
+  layers: ch.swisstopo.swisstlm3d-karte-farbe
+  format: image/jpeg
+  style: baselayer/swissimage_50.qml
+- type: wms
+  title:
+    de: PLZ Ortschaft
+    fr: MO Adresse postale
+  url: http://wms.geo.admin.ch/?
+  layers: ch.swisstopo-vd.ortschaftenverzeichnis_plz
+  format: image/jpeg
