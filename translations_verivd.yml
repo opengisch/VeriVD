@@ -1,1597 +1,1593 @@
-layer_attribute:
-  BB Symbole:
-    altori: FR_altori
-    art: FR_art
-    art_txt: FR_art_txt
-    boflaechesymbol_von: FR_boflaechesymbol_von
-    ogc_fid: FR_ogc_fid
-    ori: FR_ori
+BB Symbole:
+    altori: ori_old
+    art: genre
+    art_txt: genre_txt
+    boflaechesymbol_von: symboleSurfaceCS_de
+    ogc_fid: ogc_fid
+    ori: ori
   BB-Flächen TS1/TS2 kleiner 100qm:
-    bb_art: FR_bb_art
-    bb_art_txt: FR_bb_art_txt
-    bb_ogc_fid: FR_bb_ogc_fid
-    flaeche: FR_flaeche
-    ogc_fid: FR_ogc_fid
-    ts_art: FR_ts_art
-    ts_art_txt: FR_ts_art_txt
-    ts_ogc_fid: FR_ts_ogc_fid
+    bb_art: cs_genre
+    bb_art_txt: cs_genre_text
+    bb_ogc_fid: cs_ogc_fid
+    flaeche: surface
+    ogc_fid: ogc_fid
+    ts_art: nt_genre
+    ts_art_txt: nt_genre_txt
+    ts_ogc_fid: nt_ogc_fid
   BB-Flächen TS3 kleiner 1000qm:
-    bb_art: FR_bb_art
-    bb_art_txt: FR_bb_art_txt
-    bb_ogc_fid: FR_bb_ogc_fid
-    flaeche: FR_flaeche
-    ogc_fid: FR_ogc_fid
-    ts_art: FR_ts_art
-    ts_art_txt: FR_ts_art_txt
-    ts_ogc_fid: FR_ts_ogc_fid
+    bb_art: cs_genre
+    bb_art_txt: cs_genre_text
+    bb_ogc_fid: cs_ogc_fid
+    flaeche: surface
+    ogc_fid: ogc_fid
+    ts_art: nt_genre
+    ts_art_txt: nt_genre_txt
+    ts_ogc_fid: nt_ogc_fid
   BB-Flächen TS4/TS5 kleiner 2500qm:
-    bb_art: FR_bb_art
-    bb_art_txt: FR_bb_art_txt
-    bb_ogc_fid: FR_bb_ogc_fid
-    flaeche: FR_flaeche
-    ogc_fid: FR_ogc_fid
-    ts_art: FR_ts_art
-    ts_art_txt: FR_ts_art_txt
-    ts_ogc_fid: FR_ts_ogc_fid
+    bb_art: cs_genre
+    bb_art_txt: cs_genre_text
+    bb_ogc_fid: cs_ogc_fid
+    flaeche: surface
+    ogc_fid: ogc_fid
+    ts_art: nt_genre
+    ts_art_txt: nt_genre_txt
+    ts_ogc_fid: nt_ogc_fid
   BB-Flächen kleiner 10qm pro LS:
-    art: FR_art
-    art_txt: FR_art_txt
-    bb_ogc_fid: FR_bb_ogc_fid
-    bb_qualitaet: FR_bb_qualitaet
-    bb_qualitaet_txt: FR_bb_qualitaet_txt
-    flaeche: FR_flaeche
-    flaechenmass: FR_flaechenmass
-    liegenschaft_von: FR_liegenschaft_von
-    ls_flaeche: FR_ls_flaeche
-    ls_ogc_fid: FR_ls_ogc_fid
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
+    art: genre
+    art_txt: genre_txt
+    bb_ogc_fid: cs_ogc_fid
+    bb_qualitaet: cs_qualite
+    bb_qualitaet_txt: cs_qualite_txt
+    flaeche: surface
+    flaechenmass: superficie
+    liegenschaft_von: bien_fonds_de
+    ls_flaeche: bf_surface
+    ls_ogc_fid: bf_ogc_fid
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
   BEGID (BB):
-    gebaeudenummer_von: FR_gebaeudenummer_von
-    gem_bfs: FR_gem_bfs
-    groesse: FR_groesse
-    groesse_txt: FR_groesse_txt
-    gwr_egid: FR_gwr_egid
-    hali: FR_hali
-    hali_txt: FR_hali_txt
-    lieferdatum: FR_lieferdatum
-    los: FR_los
-    nbident: FR_nbident
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    ori: FR_ori
-    tid: FR_tid
-    vali: FR_vali
-    vali_txt: FR_vali_txt
+    gebaeudenummer_von: numero_de_batiment_de
+    gem_bfs: com_ofs
+    groesse: grandeur
+    groesse_txt: grandeur_txt
+    gwr_egid: regbl_egid
+    hali: hali
+    hali_txt: hali_txt
+    lieferdatum: date_livraison
+    los: date_suppression
+    nbident: nbident
+    nummer: numero
+    ogc_fid: ogc_fid
+    ori: ori
+    tid: tid
+    vali: vali
+    vali_txt: vali_txt
   BEGID (EO):
-    gem_bfs: FR_gem_bfs
-    groesse: FR_groesse
-    groesse_txt: FR_groesse_txt
-    gwr_egid: FR_gwr_egid
-    hali: FR_hali
-    hali_txt: FR_hali_txt
-    lieferdatum: FR_lieferdatum
-    los: FR_los
-    nbident: FR_nbident
-    nummer: FR_nummer
-    objektnummer_von: FR_objektnummer_von
-    ogc_fid: FR_ogc_fid
-    ori: FR_ori
-    tid: FR_tid
-    vali: FR_vali
-    vali_txt: FR_vali_txt
+    gem_bfs: com_ofs
+    groesse: grandeur
+    groesse_txt: grandeur_txt
+    gwr_egid: regbl_egid
+    hali: hali
+    hali_txt: hali_txt
+    lieferdatum: date_livraison
+    los: date_suppression
+    nbident: nbident
+    nummer: numero
+    objektnummer_von: numero_objet_de
+    ogc_fid: ogc_fid
+    ori: ori
+    tid: tid
+    vali: vali
+    vali_txt: vali_txt
   Benanntes Gebiet:
-    benanntesgebiet_von: FR_benanntesgebiet_von
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    benanntesgebiet_von: lieu_denomme_de
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Benanntes Gebiet Lokalisationstest:
-    benanntesgebiet_von: FR_benanntesgebiet_von
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    benanntesgebiet_von: lieu_denomme_de
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Bodenbedeckung:
-    art: FR_art
-    art_txt: FR_art_txt
-    entstehung: FR_entstehung
-    ogc_fid: FR_ogc_fid
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    entstehung: origine
+    ogc_fid: ogc_fid
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Bodenbedeckungskanten:
-    art: FR_art
-    art_txt: FR_art_txt
-    entstehung: FR_entstehung
-    ogc_fid: FR_ogc_fid
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    entstehung: origine
+    ogc_fid: ogc_fid
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   EO Flaechenelemete:
-    art: FR_art
-    art_txt: FR_art_txt
-    flaechenelement_von: FR_flaechenelement_von
-    ogc_fid: FR_ogc_fid
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art: genre
+    art_txt: genre_txt
+    element_surfacique_de: element_surfacique_de
+    ogc_fid: ogc_fid
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
   EO Linienelemente:
-    art: FR_art
-    art_txt: FR_art_txt
-    linienelement_von: FR_linienelement_von
-    ogc_fid: FR_ogc_fid
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art: genre
+    art_txt: genre_txt
+    linienelement_von: element_lineaire_de
+    ogc_fid: ogc_fid
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
   EO Punktelemente:
-    art: FR_art
-    art_txt: FR_art_txt
-    ogc_fid: FR_ogc_fid
-    punktelement_von: FR_punktelement_von
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art: genre
+    art_txt: genre_txt
+    ogc_fid: ogc_fid
+    punktelement_von: element_ponctuel_de
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
   EO-Flächenelemente (Netz):
-    art: FR_art
-    art_txt: FR_art_txt
-    ctid: FR_ctid
-    entstehung: FR_entstehung
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art: genre
+    art_txt: genre_txt
+    ctid: ctid
+    entstehung: origine
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
   EO-Linienelemente (Netz):
-    art: FR_art
-    art_txt: FR_art_txt
-    ctid: FR_ctid
-    entstehung: FR_entstehung
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art: genre
+    art_txt: genre_txt
+    ctid: ctid
+    entstehung: origine
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
   EO-Punkt:
-    art: FR_art
-    art_txt: FR_art_txt
-    ctid: FR_ctid
-    entstehung: FR_entstehung
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art: genre
+    art_txt: genre_txt
+    ctid: ctid
+    entstehung: origine
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
   EO.Flaechenelemente:
-    art: FR_art
-    art_txt: FR_art_txt
-    eo_tid: FR_eo_tid
-    flaechenelement_von: FR_flaechenelement_von
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    eo_tid: od_tid
+    element_surfacique_de: element_surfacique_de
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   EO.Linienelemente:
-    art: FR_art
-    art_txt: FR_art_txt
-    eo_tid: FR_eo_tid
-    linienelement_von: FR_linienelement_von
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    eo_tid: od_tid
+    linienelement_von: element_lineaire_de
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Einzelobjekte Flaechenelement:
-    art: FR_art
-    art_txt: FR_art_txt
-    flaechenelement_von: FR_flaechenelement_von
-    ogc_fid: FR_ogc_fid
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art: genre
+    art_txt: genre_txt
+    element_surfacique_de: element_surfacique_de
+    ogc_fid: ogc_fid
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
   Einzelobjekte Linienelement:
-    art: FR_art
-    art_txt: FR_art_txt
-    linienelement_von: FR_linienelement_von
-    ogc_fid: FR_ogc_fid
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art: genre
+    art_txt: genre_txt
+    linienelement_von: element_lineaire_de
+    ogc_fid: ogc_fid
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
   Einzelobjekte Punktelement:
-    art: FR_art
-    art_txt: FR_art_txt
-    ogc_fid: FR_ogc_fid
-    punktelement_von: FR_punktelement_von
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art: genre
+    art_txt: genre_txt
+    ogc_fid: ogc_fid
+    punktelement_von: element_ponctuel_de
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
   Entstehung -> Stil -> Klassifizieren:
-    entstehung: FR_entstehung
-    gem_bfs: FR_gem_bfs
-    lieferdatum: FR_lieferdatum
-    los: FR_los
-    ls_ogc_fid: FR_ls_ogc_fid
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
+    entstehung: origine
+    gem_bfs: com_ofs
+    lieferdatum: date_livraison
+    los: date_suppression
+    ls_ogc_fid: bf_ogc_fid
+    nummer: numero
+    ogc_fid: ogc_fid
   Flurnamen:
-    aname: FR_aname
-    entstehung: FR_entstehung
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    aname: nom
+    entstehung: origine
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   GEB.Nachführung:
-    beschreibung: FR_beschreibung
-    gueltigereintrag: FR_gueltigereintrag
-    gueltigkeit: FR_gueltigkeit
-    gueltigkeit_txt: FR_gueltigkeit_txt
-    identifikator: FR_identifikator
-    nbident: FR_nbident
-    ogc_fid: FR_ogc_fid
-    perimeter: FR_perimeter
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    beschreibung: description
+    gueltigereintrag: en_vigueur
+    gueltigkeit: validite
+    gueltigkeit_txt: validite_txt
+    identifikator: itdentification
+    nbident: nbident
+    ogc_fid: ogc_fid
+    perimeter: perimetre
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   GP Genauigkeit:
-    entstehung: FR_entstehung
-    exaktdefiniert: FR_exaktdefiniert
-    exaktdefiniert_txt: FR_exaktdefiniert_txt
-    hoheitsgrenzsteinalt: FR_hoheitsgrenzsteinalt
-    hoheitsgrenzsteinalt_txt: FR_hoheitsgrenzsteinalt_txt
-    identdn: FR_identdn
-    identifikator: FR_identifikator
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    exaktdefiniert: defini_exactement
+    exaktdefiniert_txt: defini_exactement_txt
+    hoheitsgrenzsteinalt: anc_borne_speciale
+    hoheitsgrenzsteinalt_txt: anc_borne_speciale_txt
+    identdn: identdn
+    identifikator: itdentification
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   GP Zuverlaessigkeit:
-    entstehung: FR_entstehung
-    exaktdefiniert: FR_exaktdefiniert
-    exaktdefiniert_txt: FR_exaktdefiniert_txt
-    hoheitsgrenzsteinalt: FR_hoheitsgrenzsteinalt
-    hoheitsgrenzsteinalt_txt: FR_hoheitsgrenzsteinalt_txt
-    identdn: FR_identdn
-    identifikator: FR_identifikator
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    exaktdefiniert: defini_exactement
+    exaktdefiniert_txt: defini_exactement_txt
+    hoheitsgrenzsteinalt: anc_borne_speciale
+    hoheitsgrenzsteinalt_txt: anc_borne_speciale_txt
+    identdn: identdn
+    identifikator: itdentification
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   GP nicht exakt definiert:
-    entstehung: FR_entstehung
-    exaktdefiniert: FR_exaktdefiniert
-    exaktdefiniert_txt: FR_exaktdefiniert_txt
-    hoheitsgrenzsteinalt: FR_hoheitsgrenzsteinalt
-    hoheitsgrenzsteinalt_txt: FR_hoheitsgrenzsteinalt_txt
-    identdn: FR_identdn
-    identifikator: FR_identifikator
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    exaktdefiniert: defini_exactement
+    exaktdefiniert_txt: defini_exactement_txt
+    hoheitsgrenzsteinalt: anc_borne_speciale
+    hoheitsgrenzsteinalt_txt: anc_borne_speciale_txt
+    identdn: identdn
+    identifikator: itdentification
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   GP unversichert:
-    entstehung: FR_entstehung
-    exaktdefiniert: FR_exaktdefiniert
-    exaktdefiniert_txt: FR_exaktdefiniert_txt
-    hoheitsgrenzsteinalt: FR_hoheitsgrenzsteinalt
-    hoheitsgrenzsteinalt_txt: FR_hoheitsgrenzsteinalt_txt
-    identdn: FR_identdn
-    identifikator: FR_identifikator
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    exaktdefiniert: defini_exactement
+    exaktdefiniert_txt: defini_exactement_txt
+    hoheitsgrenzsteinalt: anc_borne_speciale
+    hoheitsgrenzsteinalt_txt: anc_borne_speciale_txt
+    identdn: identdn
+    identifikator: itdentification
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   GP zuv:
-    entstehung: FR_entstehung
-    exaktdefiniert: FR_exaktdefiniert
-    exaktdefiniert_txt: FR_exaktdefiniert_txt
-    hoheitsgrenzsteinalt: FR_hoheitsgrenzsteinalt
-    hoheitsgrenzsteinalt_txt: FR_hoheitsgrenzsteinalt_txt
-    identdn: FR_identdn
-    identifikator: FR_identifikator
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    exaktdefiniert: defini_exactement
+    exaktdefiniert_txt: defini_exactement_txt
+    hoheitsgrenzsteinalt: anc_borne_speciale
+    hoheitsgrenzsteinalt_txt: anc_borne_speciale_txt
+    identdn: identdn
+    identifikator: itdentification
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   GP's ausserhalb Grenzlinien:
-    ogc_fid: FR_ogc_fid
+    ogc_fid: ogc_fid
   GP-Genauigkeiten schlechter AV93-Qalitaet:
-    art: FR_art
-    entstehung: FR_entstehung
-    exaktdefiniert: FR_exaktdefiniert
-    exaktdefiniert_txt: FR_exaktdefiniert_txt
-    gem_bfs: FR_gem_bfs
-    hoheitsgrenzsteinalt: FR_hoheitsgrenzsteinalt
-    hoheitsgrenzsteinalt_txt: FR_hoheitsgrenzsteinalt_txt
-    identifikator: FR_identifikator
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    lieferdatum: FR_lieferdatum
-    los: FR_los
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    tid: FR_tid
+    art: genre
+    entstehung: origine
+    exaktdefiniert: defini_exactement
+    exaktdefiniert_txt: defini_exactement_txt
+    gem_bfs: com_ofs
+    hoheitsgrenzsteinalt: anc_borne_speciale
+    hoheitsgrenzsteinalt_txt: anc_borne_speciale_txt
+    identifikator: itdentification
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    lieferdatum: date_livraison
+    los: date_suppression
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    tid: tid
   GRUDIS-LS-Aufruf:
-    art: FR_art
-    art_txt: FR_art_txt
-    egris_egrid: FR_egris_egrid
-    entstehung: FR_entstehung
-    flaechenmass: FR_flaechenmass
-    gesamteflaechenmass: FR_gesamteflaechenmass
-    gueltigkeit: FR_gueltigkeit
-    gueltigkeit_txt: FR_gueltigkeit_txt
-    nbident: FR_nbident
-    nummer: FR_nummer
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    vollstaendigkeit: FR_vollstaendigkeit
-    vollstaendigkeit_txt: FR_vollstaendigkeit_txt
+    art: genre
+    art_txt: genre_txt
+    egris_egrid: egris_egrid
+    entstehung: origine
+    flaechenmass: superficie
+    gesamteflaechenmass: superficie_totale
+    gueltigkeit: validite
+    gueltigkeit_txt: validite_txt
+    nbident: nbident
+    nummer: numero
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    vollstaendigkeit: integralite
+    vollstaendigkeit_txt: integralite_txt
   Gebaeudeeingang:
-    attributeprovisorisch: FR_attributeprovisorisch
-    attributeprovisorisch_txt: FR_attributeprovisorisch_txt
-    entstehung: FR_entstehung
-    gebaeudeeingang_von: FR_gebaeudeeingang_von
-    gwr_edid: FR_gwr_edid
-    gwr_egid: FR_gwr_egid
-    hausnummer: FR_hausnummer
-    hoehenlage: FR_hoehenlage
-    im_gebaeude: FR_im_gebaeude
-    im_gebaeude_txt: FR_im_gebaeude_txt
-    inaenderung: FR_inaenderung
-    inaenderung_txt: FR_inaenderung_txt
-    istoffiziellebezeichnung: FR_istoffiziellebezeichnung
-    istoffiziellebezeichnung_txt: FR_istoffiziellebezeichnung_txt
-    ogc_fid: FR_ogc_fid
-    status: FR_status
-    status_txt: FR_status_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    attributeprovisorisch: attributs_provisoires
+    attributeprovisorisch_txt: attributs_provisoires_txt
+    entstehung: origine
+    gebaeudeeingang_von: entree_batiment_de
+    gwr_edid: regbl_edid
+    gwr_egid: regbl_egid
+    hausnummer: numero_maison
+    hoehenlage: niveau
+    im_gebaeude: dans_batiment
+    im_gebaeude_txt: dans_batiment_txt
+    inaenderung: en_cours_modification
+    inaenderung_txt: en_cours_modification_txt
+    istoffiziellebezeichnung: est_designation_officielle
+    istoffiziellebezeichnung_txt: est_designation_officielle_txt
+    ogc_fid: ogc_fid
+    status: validite
+    status_txt: validite_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Gebaeudeeingang Lokalisationstest:
-    attributeprovisorisch: FR_attributeprovisorisch
-    attributeprovisorisch_txt: FR_attributeprovisorisch_txt
-    entstehung: FR_entstehung
-    gebaeudeeingang_von: FR_gebaeudeeingang_von
-    gwr_edid: FR_gwr_edid
-    gwr_egid: FR_gwr_egid
-    hausnummer: FR_hausnummer
-    hoehenlage: FR_hoehenlage
-    im_gebaeude: FR_im_gebaeude
-    im_gebaeude_txt: FR_im_gebaeude_txt
-    inaenderung: FR_inaenderung
-    inaenderung_txt: FR_inaenderung_txt
-    istoffiziellebezeichnung: FR_istoffiziellebezeichnung
-    istoffiziellebezeichnung_txt: FR_istoffiziellebezeichnung_txt
-    ogc_fid: FR_ogc_fid
-    status: FR_status
-    status_txt: FR_status_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    attributeprovisorisch: attributs_provisoires
+    attributeprovisorisch_txt: attributs_provisoires_txt
+    entstehung: origine
+    gebaeudeeingang_von: entree_batiment_de
+    gwr_edid: regbl_edid
+    gwr_egid: regbl_egid
+    hausnummer: numero_maison
+    hoehenlage: niveau
+    im_gebaeude: dans_batiment
+    im_gebaeude_txt: dans_batiment_txt
+    inaenderung: en_cours_modification
+    inaenderung_txt: en_cours_modification_txt
+    istoffiziellebezeichnung: est_designation_officielle
+    istoffiziellebezeichnung_txt: est_designation_officielle_txt
+    ogc_fid: ogc_fid
+    status: validite
+    status_txt: validite_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Gebäude > 12m2 ohne Eingang:
-    art: FR_art
-    art_txt: FR_art_txt
-    entstehung: FR_entstehung
-    flaeche: FR_flaeche
-    ogc_fid: FR_ogc_fid
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    tid: FR_tid
+    art: genre
+    art_txt: genre_txt
+    entstehung: origine
+    flaeche: surface
+    ogc_fid: ogc_fid
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    tid: tid
   Gebäude kleiner 12qm:
-    art: FR_art
-    art_txt: FR_art_txt
-    entstehung: FR_entstehung
-    ogc_fid: FR_ogc_fid
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    entstehung: origine
+    ogc_fid: ogc_fid
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Geländename:
-    aname: FR_aname
-    gelaendenamepos_von: FR_gelaendenamepos_von
-    groesse: FR_groesse
-    groesse_txt: FR_groesse_txt
-    hali: FR_hali
-    hali_txt: FR_hali_txt
-    ogc_fid: FR_ogc_fid
-    ori: FR_ori
-    rot: FR_rot
-    stil: FR_stil
-    stil_txt: FR_stil_txt
-    t_ili_tid: FR_t_ili_tid
-    vali: FR_vali
-    vali_txt: FR_vali_txt
-    x: FR_x
-    y: FR_y
+    aname: nom
+    gelaendenamepos_von: poslieudit_de
+    groesse: grandeur
+    groesse_txt: grandeur_txt
+    hali: hali
+    hali_txt: hali_txt
+    ogc_fid: ogc_fid
+    ori: ori
+    rot: rot
+    stil: style
+    stil_txt: style_txt
+    t_ili_tid: t_ili_tid
+    vali: vali
+    vali_txt: vali_txt
+    x: x
+    y: y
   Gemeinde:
-    entstehung: FR_entstehung
+    entstehung: origine
     gemeindegrenze_von: FR_gemeindegrenze_von
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Gemeindegrenze:
-    entstehung: FR_entstehung
+    entstehung: origine
     gemeindegrenze_von: FR_gemeindegrenze_von
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Gewässernetz (BB):
-    art: FR_art
-    art_txt: FR_art_txt
-    entstehung: FR_entstehung
-    ogc_fid: FR_ogc_fid
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    entstehung: origine
+    ogc_fid: ogc_fid
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Grst-Nr:
-    art: FR_art
-    art_txt: FR_art_txt
-    egris_egrid: FR_egris_egrid
-    gesamteflaechenmass: FR_gesamteflaechenmass
-    gueltigkeit: FR_gueltigkeit
-    gueltigkeit_txt: FR_gueltigkeit_txt
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    vollstaendigkeit: FR_vollstaendigkeit
-    vollstaendigkeit_txt: FR_vollstaendigkeit_txt
+    art: genre
+    art_txt: genre_txt
+    egris_egrid: egris_egrid
+    gesamteflaechenmass: superficie_totale
+    gueltigkeit: validite
+    gueltigkeit_txt: validite_txt
+    nummer: numero
+    ogc_fid: ogc_fid
+    vollstaendigkeit: integralite
+    vollstaendigkeit_txt: integralite_txt
   Grundstuecke:
-    art: FR_art
-    art_txt: FR_art_txt
-    egris_egrid: FR_egris_egrid
-    entstehung: FR_entstehung
-    gesamteflaechenmass: FR_gesamteflaechenmass
-    gueltigkeit: FR_gueltigkeit
-    gueltigkeit_txt: FR_gueltigkeit_txt
-    nbident: FR_nbident
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
-    vollstaendigkeit: FR_vollstaendigkeit
-    vollstaendigkeit_txt: FR_vollstaendigkeit_txt
+    art: genre
+    art_txt: genre_txt
+    egris_egrid: egris_egrid
+    entstehung: origine
+    gesamteflaechenmass: superficie_totale
+    gueltigkeit: validite
+    gueltigkeit_txt: validite_txt
+    nbident: nbident
+    nummer: numero
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
+    vollstaendigkeit: integralite
+    vollstaendigkeit_txt: integralite_txt
   Grundstücke:
-    art: FR_art
-    art_txt: FR_art_txt
-    egris_egrid: FR_egris_egrid
-    entstehung: FR_entstehung
-    gesamteflaechenmass: FR_gesamteflaechenmass
-    gueltigkeit: FR_gueltigkeit
-    gueltigkeit_txt: FR_gueltigkeit_txt
-    nbident: FR_nbident
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
-    vollstaendigkeit: FR_vollstaendigkeit
-    vollstaendigkeit_txt: FR_vollstaendigkeit_txt
+    art: genre
+    art_txt: genre_txt
+    egris_egrid: egris_egrid
+    entstehung: origine
+    gesamteflaechenmass: superficie_totale
+    gueltigkeit: validite
+    gueltigkeit_txt: validite_txt
+    nbident: nbident
+    nummer: numero
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
+    vollstaendigkeit: integralite
+    vollstaendigkeit_txt: integralite_txt
   HFP1:
-    entstehung: FR_entstehung
-    hoehegen: FR_hoehegen
-    hoehegeom: FR_hoehegeom
-    hoehezuv: FR_hoehezuv
-    hoehezuv_txt: FR_hoehezuv_txt
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    nbident: FR_nbident
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    hoehegen: precalt
+    hoehegeom: geomalt
+    hoehezuv: fiabalt
+    hoehezuv_txt: fiabalt_txt
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    nbident: nbident
+    nummer: numero
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   HFP2:
-    entstehung: FR_entstehung
-    hoehegen: FR_hoehegen
-    hoehegeom: FR_hoehegeom
-    hoehezuv: FR_hoehezuv
-    hoehezuv_txt: FR_hoehezuv_txt
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    nbident: FR_nbident
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    hoehegen: precalt
+    hoehegeom: geomalt
+    hoehezuv: fiabalt
+    hoehezuv_txt: fiabalt_txt
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    nbident: nbident
+    nummer: numero
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   HGP's ausserhalb Grenzlinien:
-    ogc_fid: FR_ogc_fid
+    ogc_fid: ogc_fid
   HausnummerPos:
-    groesse: FR_groesse
-    groesse_txt: FR_groesse_txt
-    hali: FR_hali
-    hali_txt: FR_hali_txt
-    hausnummer: FR_hausnummer
-    hausnummerpos_von: FR_hausnummerpos_von
-    lok_tid: FR_lok_tid
-    ogc_fid: FR_ogc_fid
-    ori: FR_ori
-    rot: FR_rot
-    t_ili_tid: FR_t_ili_tid
-    vali: FR_vali
-    vali_txt: FR_vali_txt
-    x: FR_x
-    y: FR_y
+    groesse: grandeur
+    groesse_txt: grandeur_txt
+    hali: hali
+    hali_txt: hali_txt
+    hausnummer: numero_maison
+    hausnummerpos_von: posnumero_batiment_de
+    lok_tid: loc_tid
+    ogc_fid: ogc_fid
+    ori: ori
+    rot: rot
+    t_ili_tid: t_ili_tid
+    vali: vali
+    vali_txt: vali_txt
+    x: x
+    y: y
   HausnummerPos Lokalisationstest:
-    groesse: FR_groesse
-    groesse_txt: FR_groesse_txt
-    hali: FR_hali
-    hali_txt: FR_hali_txt
-    hausnummer: FR_hausnummer
-    hausnummerpos_von: FR_hausnummerpos_von
-    lok_tid: FR_lok_tid
-    ogc_fid: FR_ogc_fid
-    ori: FR_ori
-    rot: FR_rot
-    t_ili_tid: FR_t_ili_tid
-    vali: FR_vali
-    vali_txt: FR_vali_txt
-    x: FR_x
-    y: FR_y
+    groesse: grandeur
+    groesse_txt: grandeur_txt
+    hali: hali
+    hali_txt: hali_txt
+    hausnummer: numero_maison
+    hausnummerpos_von: posnumero_batiment_de
+    lok_tid: loc_tid
+    ogc_fid: ogc_fid
+    ori: ori
+    rot: rot
+    t_ili_tid: t_ili_tid
+    vali: vali
+    vali_txt: vali_txt
+    x: x
+    y: y
   Hilfslinie:
-    groesse: FR_groesse
-    groesse_txt: FR_groesse_txt
-    grundstueckpos_von: FR_grundstueckpos_von
-    hali: FR_hali
-    hali_txt: FR_hali_txt
-    ogc_fid: FR_ogc_fid
-    ori: FR_ori
+    groesse: grandeur
+    groesse_txt: grandeur_txt
+    grundstueckpos_von: posimmeubleproj_de
+    hali: hali
+    hali_txt: hali_txt
+    ogc_fid: ogc_fid
+    ori: ori
     pos: FR_pos
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
-    vali: FR_vali
-    vali_txt: FR_vali_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
+    vali: vali
+    vali_txt: vali_txt
   Hochspannungsfreileitung:
-    art: FR_art
-    art_txt: FR_art_txt
-    ctid: FR_ctid
-    entstehung: FR_entstehung
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art: genre
+    art_txt: genre_txt
+    ctid: ctid
+    entstehung: origine
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
   Hoheitsgrenzpunkte (schoener Stein):
-    entstehung: FR_entstehung
-    exaktdefiniert: FR_exaktdefiniert
-    exaktdefiniert_txt: FR_exaktdefiniert_txt
-    hoheitsgrenzstein: FR_hoheitsgrenzstein
-    hoheitsgrenzstein_txt: FR_hoheitsgrenzstein_txt
-    identifikator: FR_identifikator
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    exaktdefiniert: defini_exactement
+    exaktdefiniert_txt: defini_exactement_txt
+    hoheitsgrenzstein: point_limite_ter
+    hoheitsgrenzstein_txt: point_limite_ter_txt
+    identifikator: itdentification
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Hoheitsgrenzpunkte Genauigkeit:
-    entstehung: FR_entstehung
-    exaktdefiniert: FR_exaktdefiniert
-    exaktdefiniert_txt: FR_exaktdefiniert_txt
-    hoheitsgrenzstein: FR_hoheitsgrenzstein
-    hoheitsgrenzstein_txt: FR_hoheitsgrenzstein_txt
-    identifikator: FR_identifikator
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    exaktdefiniert: defini_exactement
+    exaktdefiniert_txt: defini_exactement_txt
+    hoheitsgrenzstein: point_limite_ter
+    hoheitsgrenzstein_txt: point_limite_ter_txt
+    identifikator: itdentification
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Hoheitsgrenzpunkte Zuverlässigkeit:
-    entstehung: FR_entstehung
-    exaktdefiniert: FR_exaktdefiniert
-    exaktdefiniert_txt: FR_exaktdefiniert_txt
-    hoheitsgrenzstein: FR_hoheitsgrenzstein
-    hoheitsgrenzstein_txt: FR_hoheitsgrenzstein_txt
-    identifikator: FR_identifikator
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    exaktdefiniert: defini_exactement
+    exaktdefiniert_txt: defini_exactement_txt
+    hoheitsgrenzstein: point_limite_ter
+    hoheitsgrenzstein_txt: point_limite_ter_txt
+    identifikator: itdentification
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Hoheitsgrenzpunkte nicht exakt definiert:
-    entstehung: FR_entstehung
-    exaktdefiniert: FR_exaktdefiniert
-    exaktdefiniert_txt: FR_exaktdefiniert_txt
-    hoheitsgrenzstein: FR_hoheitsgrenzstein
-    hoheitsgrenzstein_txt: FR_hoheitsgrenzstein_txt
-    identifikator: FR_identifikator
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    exaktdefiniert: defini_exactement
+    exaktdefiniert_txt: defini_exactement_txt
+    hoheitsgrenzstein: point_limite_ter
+    hoheitsgrenzstein_txt: point_limite_ter_txt
+    identifikator: itdentification
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Hoheitsgrenzpunkte unversichert:
-    entstehung: FR_entstehung
-    exaktdefiniert: FR_exaktdefiniert
-    exaktdefiniert_txt: FR_exaktdefiniert_txt
-    hoheitsgrenzstein: FR_hoheitsgrenzstein
-    hoheitsgrenzstein_txt: FR_hoheitsgrenzstein_txt
-    identifikator: FR_identifikator
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    exaktdefiniert: defini_exactement
+    exaktdefiniert_txt: defini_exactement_txt
+    hoheitsgrenzstein: point_limite_ter
+    hoheitsgrenzstein_txt: point_limite_ter_txt
+    identifikator: itdentification
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Isolierte Uebrigen Gebaeudeteile Flachen:
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
   Isolierte Uebrigen Gebaeudeteile Linien:
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
   Isolierte Uebrigen Gebaeudeteile Punkte:
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
   Kuerzeste Linie Lokalisationstest:
-    a_tid: FR_a_tid
-    b_tid: FR_b_tid
-    hausnummer: FR_hausnummer
-    lok_tid: FR_lok_tid
-    ogc_fid: FR_ogc_fid
-    strname: FR_strname
+    a_tid: a_tid
+    b_tid: b_tid
+    hausnummer: numero_maison
+    lok_tid: loc_tid
+    ogc_fid: ogc_fid
+    strname: nom_rue
   Kürzeste Linie:
-    a_tid: FR_a_tid
-    b_tid: FR_b_tid
-    hausnummer: FR_hausnummer
-    lok_tid: FR_lok_tid
-    ogc_fid: FR_ogc_fid
-    strname: FR_strname
+    a_tid: a_tid
+    b_tid: b_tid
+    hausnummer: numero_maison
+    lok_tid: loc_tid
+    ogc_fid: ogc_fid
+    strname: nom_rue
   LFP1:
-    begehbarkeit: FR_begehbarkeit
-    begehbarkeit_txt: FR_begehbarkeit_txt
-    entstehung: FR_entstehung
-    hoehegen: FR_hoehegen
-    hoehegeom: FR_hoehegeom
-    hoehezuv: FR_hoehezuv
-    hoehezuv_txt: FR_hoehezuv_txt
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    nbident: FR_nbident
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    begehbarkeit: accessibilite
+    begehbarkeit_txt: accessibilite_txt
+    entstehung: origine
+    hoehegen: precalt
+    hoehegeom: geomalt
+    hoehezuv: fiabalt
+    hoehezuv_txt: fiabalt_txt
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    nbident: nbident
+    nummer: numero
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   LFP2:
-    begehbarkeit: FR_begehbarkeit
-    begehbarkeit_txt: FR_begehbarkeit_txt
-    entstehung: FR_entstehung
-    hoehegen: FR_hoehegen
-    hoehegeom: FR_hoehegeom
-    hoehezuv: FR_hoehezuv
-    hoehezuv_txt: FR_hoehezuv_txt
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    nbident: FR_nbident
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    begehbarkeit: accessibilite
+    begehbarkeit_txt: accessibilite_txt
+    entstehung: origine
+    hoehegen: precalt
+    hoehegeom: geomalt
+    hoehezuv: fiabalt
+    hoehezuv_txt: fiabalt_txt
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    nbident: nbident
+    nummer: numero
+    ogc_fid: ogc_fid
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   LFP3:
-    entstehung: FR_entstehung
-    hoehegen: FR_hoehegen
-    hoehegeom: FR_hoehegeom
-    hoehezuv: FR_hoehezuv
-    hoehezuv_txt: FR_hoehezuv_txt
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    nbident: FR_nbident
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    protokoll: FR_protokoll
-    protokoll_txt: FR_protokoll_txt
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    hoehegen: precalt
+    hoehegeom: geomalt
+    hoehezuv: fiabalt
+    hoehezuv_txt: fiabalt_txt
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    nbident: nbident
+    nummer: numero
+    ogc_fid: ogc_fid
+    protokoll: fiche
+    protokoll_txt: fiche_txt
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   LFP3 Nachführung:
-    beschreibung: FR_beschreibung
+    beschreibung: description
     datum1: FR_datum1
-    gueltigereintrag: FR_gueltigereintrag
-    identifikator: FR_identifikator
-    nbident: FR_nbident
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    gueltigereintrag: en_vigueur
+    identifikator: itdentification
+    nbident: nbident
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   LFP3 ausserhalb Gemeinde:
-    entstehung: FR_entstehung
-    hoehegen: FR_hoehegen
-    hoehegeom: FR_hoehegeom
-    hoehezuv: FR_hoehezuv
-    hoehezuv_txt: FR_hoehezuv_txt
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    nbident: FR_nbident
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    protokoll: FR_protokoll
-    protokoll_txt: FR_protokoll_txt
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    hoehegen: precalt
+    hoehegeom: geomalt
+    hoehezuv: fiabalt
+    hoehezuv_txt: fiabalt_txt
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    nbident: nbident
+    nummer: numero
+    ogc_fid: ogc_fid
+    protokoll: fiche
+    protokoll_txt: fiche_txt
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   LFP3 pro Toleranzstufe:
-    diff: FR_diff
-    ist: FR_ist
-    ogc_fid: FR_ogc_fid
-    soll: FR_soll
-    toleranzstufe: FR_toleranzstufe
-    ts_hektare: FR_ts_hektare
+    diff: diff
+    ist: est
+    ogc_fid: ogc_fid
+    soll: doit
+    toleranzstufe: niveau_tolerance
+    ts_hektare: nt_hectare
   Label ausserhalb Gs:
-    art: FR_art
-    art_txt: FR_art_txt
-    egris_egrid: FR_egris_egrid
-    gem_bfs: FR_gem_bfs
-    gesamteflaechenmass: FR_gesamteflaechenmass
-    gueltigkeit: FR_gueltigkeit
-    gueltigkeit_txt: FR_gueltigkeit_txt
-    lieferdatum: FR_lieferdatum
-    lin: FR_lin
-    los: FR_los
-    nbident: FR_nbident
-    nummer: FR_nummer
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    vollstaendigkeit: FR_vollstaendigkeit
-    vollstaendigkeit_txt: FR_vollstaendigkeit_txt
+    art: genre
+    art_txt: genre_txt
+    egris_egrid: egris_egrid
+    gem_bfs: com_ofs
+    gesamteflaechenmass: superficie_totale
+    gueltigkeit: validite
+    gueltigkeit_txt: validite_txt
+    lieferdatum: date_livraison
+    lin: ligne
+    los: date_suppression
+    nbident: nbident
+    nummer: numero
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    vollstaendigkeit: integralite
+    vollstaendigkeit_txt: integralite_txt
   Liegenschaften:
-    flaechenmass: FR_flaechenmass
-    liegenschaft_von: FR_liegenschaft_von
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    superficierf: FR_superficierf
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    flaechenmass: superficie
+    liegenschaft_von: bien_fonds_de
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    superficierf: superficierf
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Liegenschaften Qualitaet:
-    flaechenmass: FR_flaechenmass
-    liegenschaft_von: FR_liegenschaft_von
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    superficierf: FR_superficierf
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    flaechenmass: superficie
+    liegenschaft_von: bien_fonds_de
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    superficierf: superficierf
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Liegenschaften mit Flächendifferenzen:
-    flaeche: FR_flaeche
-    flaechenmass: FR_flaechenmass
-    gem_bfs: FR_gem_bfs
-    lieferdatum: FR_lieferdatum
-    liegenschaft_von: FR_liegenschaft_von
-    los: FR_los
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    tid: FR_tid
+    flaeche: surface
+    flaechenmass: superficie
+    gem_bfs: com_ofs
+    lieferdatum: date_livraison
+    liegenschaft_von: bien_fonds_de
+    los: date_suppression
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    tid: tid
   Lokalisation:
-    art: FR_art
-    art_txt: FR_art_txt
-    attributeprovisorisch: FR_attributeprovisorisch
-    attributeprovisorisch_txt: FR_attributeprovisorisch_txt
-    entstehung: FR_entstehung
-    inaenderung: FR_inaenderung
-    inaenderung_txt: FR_inaenderung_txt
-    istoffiziellebezeichnung: FR_istoffiziellebezeichnung
-    istoffiziellebezeichnung_txt: FR_istoffiziellebezeichnung_txt
-    lokalisationnummer: FR_lokalisationnummer
-    nummerierungsprinzip: FR_nummerierungsprinzip
-    nummerierungsprinzip_txt: FR_nummerierungsprinzip_txt
-    ogc_fid: FR_ogc_fid
-    status: FR_status
-    status_txt: FR_status_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    attributeprovisorisch: attributs_provisoires
+    attributeprovisorisch_txt: attributs_provisoires_txt
+    entstehung: origine
+    inaenderung: en_cours_modification
+    inaenderung_txt: en_cours_modification_txt
+    istoffiziellebezeichnung: est_designation_officielle
+    istoffiziellebezeichnung_txt: est_designation_officielle_txt
+    lokalisationnummer: numero_localisation
+    nummerierungsprinzip: principe_numerotation
+    nummerierungsprinzip_txt: principe_numerotation_txt
+    ogc_fid: ogc_fid
+    status: validite
+    status_txt: validite_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   LokalisationsName:
-    atext: FR_atext
-    benannte: FR_benannte
-    indextext: FR_indextext
-    kurztext: FR_kurztext
-    ogc_fid: FR_ogc_fid
-    sprache: FR_sprache
-    sprache_txt: FR_sprache_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    atext: atexte
+    benannte: lieu_denomme
+    indextext: texte_index
+    kurztext: texte_abrege
+    ogc_fid: ogc_fid
+    sprache: langue
+    sprache_txt: langue_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   LokalisationsNamePos:
-    anfindex: FR_anfindex
-    atext: FR_atext
-    benannte: FR_benannte
-    endindex: FR_endindex
-    groesse: FR_groesse
-    groesse_txt: FR_groesse_txt
-    hali: FR_hali
-    hali_txt: FR_hali_txt
-    hilfslinie: FR_hilfslinie
-    lokalisationsnamepos_von: FR_lokalisationsnamepos_von
-    ogc_fid: FR_ogc_fid
-    ori: FR_ori
-    rot: FR_rot
-    t_ili_tid: FR_t_ili_tid
-    vali: FR_vali
-    vali_txt: FR_vali_txt
-    x: FR_x
-    y: FR_y
+    anfindex: indice_deb
+    atext: atexte
+    benannte: lieu_denomme
+    endindex: indice_fin
+    groesse: grandeur
+    groesse_txt: grandeur_txt
+    hali: hali
+    hali_txt: hali_txt
+    hilfslinie: Ligne_auxiliaire
+    lokalisationsnamepos_von: posnom_localisation_de
+    ogc_fid: ogc_fid
+    ori: ori
+    rot: rot
+    t_ili_tid: t_ili_tid
+    vali: vali
+    vali_txt: vali_txt
+    x: x
+    y: y
   NK Mini-Flächen (Punkt):
-    flaeche: FR_flaeche
-    ls_fid: FR_ls_fid
-    nk_fid: FR_nk_fid
-    z_ls_nk_pkt_fid: FR_z_ls_nk_pkt_fid
+    flaeche: surface
+    ls_fid: bf_fid
+    nk_fid: no_fid
+    z_ls_nk_pkt_fid: z_bf_no_pnt_fid
   Nr Gs(LS):
-    art: FR_art
-    art_txt: FR_art_txt
-    egris_egrid: FR_egris_egrid
-    gem_bfs: FR_gem_bfs
-    gesamteflaechenmass: FR_gesamteflaechenmass
-    gueltigkeit: FR_gueltigkeit
-    gueltigkeit_txt: FR_gueltigkeit_txt
-    lieferdatum: FR_lieferdatum
-    lin: FR_lin
-    los: FR_los
-    nbident: FR_nbident
-    nummer: FR_nummer
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    vollstaendigkeit: FR_vollstaendigkeit
-    vollstaendigkeit_txt: FR_vollstaendigkeit_txt
+    art: genre
+    art_txt: genre_txt
+    egris_egrid: egris_egrid
+    gem_bfs: com_ofs
+    gesamteflaechenmass: superficie_totale
+    gueltigkeit: validite
+    gueltigkeit_txt: validite_txt
+    lieferdatum: date_livraison
+    lin: ligne
+    los: date_suppression
+    nbident: nbident
+    nummer: numero
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    vollstaendigkeit: integralite
+    vollstaendigkeit_txt: integralite_txt
   Nr Gs(LS-Teil):
-    art: FR_art
-    art_txt: FR_art_txt
-    egris_egrid: FR_egris_egrid
-    gem_bfs: FR_gem_bfs
-    gesamteflaechenmass: FR_gesamteflaechenmass
-    gueltigkeit: FR_gueltigkeit
-    gueltigkeit_txt: FR_gueltigkeit_txt
-    lieferdatum: FR_lieferdatum
-    lin: FR_lin
-    los: FR_los
-    nbident: FR_nbident
-    nummer: FR_nummer
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    vollstaendigkeit: FR_vollstaendigkeit
-    vollstaendigkeit_txt: FR_vollstaendigkeit_txt
+    art: genre
+    art_txt: genre_txt
+    egris_egrid: egris_egrid
+    gem_bfs: com_ofs
+    gesamteflaechenmass: superficie_totale
+    gueltigkeit: validite
+    gueltigkeit_txt: validite_txt
+    lieferdatum: date_livraison
+    lin: ligne
+    los: date_suppression
+    nbident: nbident
+    nummer: numero
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    vollstaendigkeit: integralite
+    vollstaendigkeit_txt: integralite_txt
   Nr Gs(SDR Teil):
-    art: FR_art
-    art_txt: FR_art_txt
-    egris_egrid: FR_egris_egrid
-    gem_bfs: FR_gem_bfs
-    gesamteflaechenmass: FR_gesamteflaechenmass
-    gueltigkeit: FR_gueltigkeit
-    gueltigkeit_txt: FR_gueltigkeit_txt
-    lieferdatum: FR_lieferdatum
-    lin: FR_lin
-    los: FR_los
-    nbident: FR_nbident
-    nummer: FR_nummer
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    vollstaendigkeit: FR_vollstaendigkeit
-    vollstaendigkeit_txt: FR_vollstaendigkeit_txt
+    art: genre
+    art_txt: genre_txt
+    egris_egrid: egris_egrid
+    gem_bfs: com_ofs
+    gesamteflaechenmass: superficie_totale
+    gueltigkeit: validite
+    gueltigkeit_txt: validite_txt
+    lieferdatum: date_livraison
+    lin: ligne
+    los: date_suppression
+    nbident: nbident
+    nummer: numero
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    vollstaendigkeit: integralite
+    vollstaendigkeit_txt: integralite_txt
   Nr Gs(SDR):
-    art: FR_art
-    art_txt: FR_art_txt
-    egris_egrid: FR_egris_egrid
-    gem_bfs: FR_gem_bfs
-    gesamteflaechenmass: FR_gesamteflaechenmass
-    gueltigkeit: FR_gueltigkeit
-    gueltigkeit_txt: FR_gueltigkeit_txt
-    lieferdatum: FR_lieferdatum
-    lin: FR_lin
-    los: FR_los
-    nbident: FR_nbident
-    nummer: FR_nummer
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    vollstaendigkeit: FR_vollstaendigkeit
-    vollstaendigkeit_txt: FR_vollstaendigkeit_txt
+    art: genre
+    art_txt: genre_txt
+    egris_egrid: egris_egrid
+    gem_bfs: com_ofs
+    gesamteflaechenmass: superficie_totale
+    gueltigkeit: validite
+    gueltigkeit_txt: validite_txt
+    lieferdatum: date_livraison
+    lin: ligne
+    los: date_suppression
+    nbident: nbident
+    nummer: numero
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    vollstaendigkeit: integralite
+    vollstaendigkeit_txt: integralite_txt
   Objektname:
-    aname: FR_aname
-    ogc_fid: FR_ogc_fid
+    aname: nom
+    ogc_fid: ogc_fid
   Ortsname:
-    aname: FR_aname
-    entstehung: FR_entstehung
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    typ: FR_typ
-    ufid: FR_ufid
+    aname: nom
+    entstehung: origine
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    typ: type
+    ufid: ufid
   Plan-Nr. Pos:
-    groesse: FR_groesse
-    groesse_txt: FR_groesse_txt
-    hali: FR_hali
-    hali_txt: FR_hali_txt
-    ogc_fid: FR_ogc_fid
-    ori: FR_ori
-    planpos_von: FR_planpos_von
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
-    vali: FR_vali
-    vali_txt: FR_vali_txt
+    groesse: grandeur
+    groesse_txt: grandeur_txt
+    hali: hali
+    hali_txt: hali_txt
+    ogc_fid: ogc_fid
+    ori: ori
+    planpos_von: posplan_de
+    t_ili_tid: t_ili_tid
+    ufid: ufid
+    vali: vali
+    vali_txt: vali_txt
   Planeinteilung:
-    gueltigereintrag: FR_gueltigereintrag
-    nbident: FR_nbident
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    techdossier: FR_techdossier
+    gueltigereintrag: en_vigueur
+    nbident: nbident
+    nummer: numero
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    techdossier: dossiertech
   Punktzeichen:
-    entstehung: FR_entstehung
-    hoehegen: FR_hoehegen
-    hoehegeom: FR_hoehegeom
-    hoehezuv: FR_hoehezuv
-    hoehezuv_txt: FR_hoehezuv_txt
-    lagegen: FR_lagegen
-    lagezuv: FR_lagezuv
-    lagezuv_txt: FR_lagezuv_txt
-    nbident: FR_nbident
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    protokoll: FR_protokoll
-    protokoll_txt: FR_protokoll_txt
-    punktzeichen: FR_punktzeichen
-    punktzeichen_txt: FR_punktzeichen_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    hoehegen: precalt
+    hoehegeom: geomalt
+    hoehezuv: fiabalt
+    hoehezuv_txt: fiabalt_txt
+    lagegen: precplan
+    lagezuv: fiabplan
+    lagezuv_txt: fiabplan_txt
+    nbident: nbident
+    nummer: numero
+    ogc_fid: ogc_fid
+    protokoll: fiche
+    protokoll_txt: fiche_txt
+    punktzeichen: signe
+    punktzeichen_txt: signe_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Rohrleit. Fläche:
-    flaechenelement_von: FR_flaechenelement_von
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    element_surfacique_de: element_surfacique_de
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Rohrleit. Linien:
-    art: FR_art
-    art_txt: FR_art_txt
-    betreiber: FR_betreiber
-    linienart: FR_linienart
-    linienart_txt: FR_linienart_txt
-    linienelement_von: FR_linienelement_von
-    ogc_fid: FR_ogc_fid
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art: genre
+    art_txt: genre_txt
+    betreiber: exploitant
+    linienart: ligneienart
+    linienart_txt: ligneienart_txt
+    linienelement_von: element_lineaire_de
+    ogc_fid: ogc_fid
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
   Rohrleit. Objekte:
-    art_txt: FR_art_txt
-    betreiber: FR_betreiber
-    leitungsobjektpos_von: FR_leitungsobjektpos_von
-    ogc_fid: FR_ogc_fid
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art_txt: genre_txt
+    betreiber: exploitant
+    leitungsobjektpos_von: poselement_conduite_de
+    ogc_fid: ogc_fid
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
   Rohrleit. Punkt:
-    hoehegeom: FR_hoehegeom
-    ogc_fid: FR_ogc_fid
-    ori: FR_ori
-    punktelement_von: FR_punktelement_von
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    hoehegeom: geomalt
+    ogc_fid: ogc_fid
+    ori: ori
+    punktelement_von: element_ponctuel_de
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Rutschgebiet:
-    aname: FR_aname
-    gueltigereintrag: FR_gueltigereintrag
-    identifikator: FR_identifikator
-    nbident: FR_nbident
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    aname: nom
+    gueltigereintrag: en_vigueur
+    identifikator: itdentification
+    nbident: nbident
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Rutschgebiet Pos:
-    groesse: FR_groesse
-    groesse_txt: FR_groesse_txt
-    hali: FR_hali
-    hali_txt: FR_hali_txt
-    ogc_fid: FR_ogc_fid
-    ori: FR_ori
-    rutschungpos_von: FR_rutschungpos_von
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
-    vali: FR_vali
-    vali_txt: FR_vali_txt
+    groesse: grandeur
+    groesse_txt: grandeur_txt
+    hali: hali
+    hali_txt: hali_txt
+    ogc_fid: ogc_fid
+    ori: ori
+    rutschungpos_von: posglissement_de
+    t_ili_tid: t_ili_tid
+    ufid: ufid
+    vali: vali
+    vali_txt: vali_txt
   SDR:
-    flaechenmass: FR_flaechenmass
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    selbstrecht_von: FR_selbstrecht_von
-    superficierf: FR_superficierf
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    flaechenmass: superficie
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    selbstrecht_von: ddp_de
+    superficierf: superficierf
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   SDR Qualitaet:
-    flaechenmass: FR_flaechenmass
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    selbstrecht_von: FR_selbstrecht_von
-    superficierf: FR_superficierf
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    flaechenmass: superficie
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    selbstrecht_von: ddp_de
+    superficierf: superficierf
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Selbstrecht mit Flaechendifferenzen:
-    flaeche: FR_flaeche
-    flaechenmass: FR_flaechenmass
-    gem_bfs: FR_gem_bfs
-    lieferdatum: FR_lieferdatum
-    los: FR_los
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    selbstrecht_von: FR_selbstrecht_von
-    tid: FR_tid
+    flaeche: surface
+    flaechenmass: superficie
+    gem_bfs: com_ofs
+    lieferdatum: date_livraison
+    los: date_suppression
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    selbstrecht_von: ddp_de
+    tid: tid
   Signalpunkt:
-    art: FR_art
-    art_txt: FR_art_txt
-    betreiber: FR_betreiber
-    entstehung: FR_entstehung
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    punktart: FR_punktart
-    punktart_txt: FR_punktart_txt
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    betreiber: exploitant
+    entstehung: origine
+    nummer: numero
+    ogc_fid: ogc_fid
+    punktart: genre_point
+    punktart_txt: genre_point_txt
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Spinnennetz:
-    hausnummer: FR_hausnummer
-    ogc_fid: FR_ogc_fid
-    tid: FR_tid
+    hausnummer: numero_maison
+    ogc_fid: ogc_fid
+    tid: tid
   Strassenstueck (anfangspunkt):
-    geometrie: FR_geometrie
-    istachse: FR_istachse
-    istachse_txt: FR_istachse_txt
-    ogc_fid: FR_ogc_fid
-    ordnung: FR_ordnung
-    strassenstueck_von: FR_strassenstueck_von
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    geometrie: geometrie
+    istachse: est_axe
+    istachse_txt: est_axe_txt
+    ogc_fid: ogc_fid
+    ordnung: ordre
+    strassenstueck_von: troncon_rue_de
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Strassenstueck (anfangspunkt) Lokalisationstest:
-    geometrie: FR_geometrie
-    istachse: FR_istachse
-    istachse_txt: FR_istachse_txt
-    ogc_fid: FR_ogc_fid
-    ordnung: FR_ordnung
-    strassenstueck_von: FR_strassenstueck_von
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    geometrie: geometrie
+    istachse: est_axe
+    istachse_txt: est_axe_txt
+    ogc_fid: ogc_fid
+    ordnung: ordre
+    strassenstueck_von: troncon_rue_de
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Strassenstueck (geometrie):
-    anfangspunkt: FR_anfangspunkt
-    istachse: FR_istachse
-    istachse_txt: FR_istachse_txt
-    ogc_fid: FR_ogc_fid
-    ordnung: FR_ordnung
-    strassenstueck_von: FR_strassenstueck_von
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    anfangspunkt: point_depart
+    istachse: est_axe
+    istachse_txt: est_axe_txt
+    ogc_fid: ogc_fid
+    ordnung: ordre
+    strassenstueck_von: troncon_rue_de
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Strassenstueck (geometrie) Lokalisationstest:
-    anfangspunkt: FR_anfangspunkt
-    istachse: FR_istachse
-    istachse_txt: FR_istachse_txt
-    ogc_fid: FR_ogc_fid
-    ordnung: FR_ordnung
-    strassenstueck_von: FR_strassenstueck_von
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    anfangspunkt: point_depart
+    istachse: est_axe
+    istachse_txt: est_axe_txt
+    ogc_fid: ogc_fid
+    ordnung: ordre
+    strassenstueck_von: troncon_rue_de
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Toleranzstufen:
-    art: FR_art
-    art_txt: FR_art_txt
-    gueltigereintrag: FR_gueltigereintrag
-    identifikator: FR_identifikator
-    nbident: FR_nbident
-    ogc_fid: FR_ogc_fid
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    gueltigereintrag: en_vigueur
+    identifikator: itdentification
+    nbident: nbident
+    ogc_fid: ogc_fid
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Verkehrsnetz (BB):
-    art: FR_art
-    art_txt: FR_art_txt
-    entstehung: FR_entstehung
-    ogc_fid: FR_ogc_fid
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    entstehung: origine
+    ogc_fid: ogc_fid
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Wald kleiner 800qm:
-    art: FR_art
-    art_txt: FR_art_txt
-    entstehung: FR_entstehung
-    ogc_fid: FR_ogc_fid
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    entstehung: origine
+    ogc_fid: ogc_fid
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   Wasserbecken kleiner 20qm:
-    art: FR_art
-    art_txt: FR_art_txt
-    entstehung: FR_entstehung
-    ogc_fid: FR_ogc_fid
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    entstehung: origine
+    ogc_fid: ogc_fid
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   proj Grst-Nr:
-    art: FR_art
-    art_txt: FR_art_txt
-    egris_egrid: FR_egris_egrid
-    gesamteflaechenmass: FR_gesamteflaechenmass
-    gueltigkeit: FR_gueltigkeit
-    gueltigkeit_txt: FR_gueltigkeit_txt
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    vollstaendigkeit: FR_vollstaendigkeit
-    vollstaendigkeit_txt: FR_vollstaendigkeit_txt
+    art: genre
+    art_txt: genre_txt
+    egris_egrid: egris_egrid
+    gesamteflaechenmass: superficie_totale
+    gueltigkeit: validite
+    gueltigkeit_txt: validite_txt
+    nummer: numero
+    ogc_fid: ogc_fid
+    vollstaendigkeit: integralite
+    vollstaendigkeit_txt: integralite_txt
   proj Liegenschaften Qualitaet:
-    flaechenmass: FR_flaechenmass
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    projliegenschaft_von: FR_projliegenschaft_von
-    superficierf: FR_superficierf
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    flaechenmass: superficie
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    projliegenschaft_von: bien_fondsproj_de
+    superficierf: superficierf
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   proj SDR Qualitaet:
-    flaechenmass: FR_flaechenmass
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    projselbstrecht_von: FR_projselbstrecht_von
-    superficierf: FR_superficierf
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    flaechenmass: superficie
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    projselbstrecht_von: ddpproj_de
+    superficierf: superficierf
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   proj. Gebaeude:
-    art: FR_art
-    art_txt: FR_art_txt
-    entstehung: FR_entstehung
-    ogc_fid: FR_ogc_fid
-    qualitaet: FR_qualitaet
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    art: genre
+    art_txt: genre_txt
+    entstehung: origine
+    ogc_fid: ogc_fid
+    qualitaet: qualite
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   proj. Gemeindegrenze:
-    entstehung: FR_entstehung
-    ogc_fid: FR_ogc_fid
-    projgemeindegrenze_von: FR_projgemeindegrenze_von
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    entstehung: origine
+    ogc_fid: ogc_fid
+    projgemeindegrenze_von: limite_communeproj_de
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   proj. Liegenschaften:
-    flaechenmass: FR_flaechenmass
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    projliegenschaft_von: FR_projliegenschaft_von
-    superficierf: FR_superficierf
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    flaechenmass: superficie
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    projliegenschaft_von: bien_fondsproj_de
+    superficierf: superficierf
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   proj. SDR:
-    flaechenmass: FR_flaechenmass
-    nummerteilgrundstueck: FR_nummerteilgrundstueck
-    ogc_fid: FR_ogc_fid
-    projselbstrecht_von: FR_projselbstrecht_von
-    superficierf: FR_superficierf
-    t_ili_tid: FR_t_ili_tid
-    ufid: FR_ufid
+    flaechenmass: superficie
+    nummerteilgrundstueck: partienumeroimmeuble
+    ogc_fid: ogc_fid
+    projselbstrecht_von: ddpproj_de
+    superficierf: superficierf
+    t_ili_tid: t_ili_tid
+    ufid: ufid
   proj_Grst-Nr:
-    art: FR_art
-    art_txt: FR_art_txt
-    egris_egrid: FR_egris_egrid
-    gesamteflaechenmass: FR_gesamteflaechenmass
-    gueltigkeit: FR_gueltigkeit
-    gueltigkeit_txt: FR_gueltigkeit_txt
-    nummer: FR_nummer
-    ogc_fid: FR_ogc_fid
-    vollstaendigkeit: FR_vollstaendigkeit
-    vollstaendigkeit_txt: FR_vollstaendigkeit_txt
+    art: genre
+    art_txt: genre_txt
+    egris_egrid: egris_egrid
+    gesamteflaechenmass: superficie_totale
+    gueltigkeit: validite
+    gueltigkeit_txt: validite_txt
+    nummer: numero
+    ogc_fid: ogc_fid
+    vollstaendigkeit: integralite
+    vollstaendigkeit_txt: integralite_txt
   schmale bestockte Fläche > 800 qm:
-    art: FR_art
-    art_txt: FR_art_txt
-    flaechenelement_von: FR_flaechenelement_von
-    ogc_fid: FR_ogc_fid
-    qualitaet_txt: FR_qualitaet_txt
-    t_ili_tid: FR_t_ili_tid
+    art: genre
+    art_txt: genre_txt
+    element_surfacique_de: element_surfacique_de
+    ogc_fid: ogc_fid
+    qualitaet_txt: qualite_txt
+    t_ili_tid: t_ili_tid
 layer_group:
   all:
-    AV Allgemein: FR_AV Allgemein
-    BB Allgemein: FR_BB Allgemein
-    BB Minimalflächen: FR_BB Minimalflächen
-    EO Allgemein: FR_EO Allgemein
-    EO Flaechenkriterien: FR_EO Flaechenkriterien
-    FixpunkteKategorie12: FR_FixpunkteKategorie12
-    FixpunkteKategorie3: Points fixes categorie3
-    Flächendifferenzen: FR_Flächendifferenzen
-    GP ausserhalb: FR_GP ausserhalb
-    GP aussherhalb: FR_GP aussherhalb
-    Gebaeudeadressen - Basislayer: FR_Gebaeudeadressen - Basislayer
-    Gebaeudeadressen - Checklayer: FR_Gebaeudeadressen - Checklayer
-    Gebaeudeadressen - Lokalisationstest: FR_Gebaeudeadressen - Lokalisationstest
-    Gemeindegrenzen: Limites commune
-    Grenzpunkte: FR_Grenzpunkte
-    Isolierte_Uebrigen_Gebaeudeteile: FR_Isolierte_Uebrigen_Gebaeudeteile
-    LS Entstehung: FR_LS Entstehung
-    Netze: FR_Netze
-    Nk Minimalflächen: FR_Nk Minimalflächen
-    Nomenklatur Übersicht: FR_Nomenklatur Übersicht
-    Orthofoto: FR_Orthofoto
-    Plan-Einteilung: FR_Plan-Einteilung
-    Qualität BB/EO: FR_Qualität BB/EO
-    Rohrleitungen: Conduites
-    Toleranzstufen: FR_Toleranzstufen
+    AV Allgemein: MO General
+    BB Allgemein: CS General
+    BB Minimalflächen: CS Surfaces minimales
+    EO Allgemein: OD General
+    EO Flaechenkriterien: OD Categories de surfaces
+    FixpunkteKategorie12: Points_fixesCategorie12
+    FixpunkteKategorie3: Points_fixesCategorie3
+    Flächendifferenzen: Difference de surfaces
+    GP ausserhalb: GP exterieur
+    GP aussherhalb: GP extterieur
+    Gebaeudeadressen - Basislayer: Adresses - Couches de bases
+    Gebaeudeadressen - Checklayer: Adresses - Couches de verification
+    Gebaeudeadressen - Lokalisationstest: Adresses - test des localisations
+    Gemeindegrenzen: Limites_commune
+    Grenzpunkte: Points limites
+    Isolierte_Uebrigen_Gebaeudeteile: Constructions isolees
+    LS Entstehung: BF Origine
+    Netze: Reseau
+    Nk Minimalflächen: No Surfaces minimales
+    Nomenklatur Übersicht: Nomenclature - Couches de verification
+    Orthofoto: FR_Orthophoto
+    Plan-Einteilung: Repartition des plans
+    Qualität BB/EO: Qualite CS/OD
+    Rohrleitungen: Conduite
+    Toleranzstufen: Niveau de tolerance
 layer_name:
   all:
-    BB Symbole: FR_BB Symbole
-    BB-Flächen TS1/TS2 kleiner 100qm: FR_BB-Flächen TS1/TS2 kleiner 100qm
-    BB-Flächen TS3 kleiner 1000qm: FR_BB-Flächen TS3 kleiner 1000qm
-    BB-Flächen TS4/TS5 kleiner 2500qm: FR_BB-Flächen TS4/TS5 kleiner 2500qm
-    BB-Flächen kleiner 10qm pro LS: FR_BB-Flächen kleiner 10qm pro LS
-    BEGID (BB): FR_BEGID (BB)
-    BEGID (EO): FR_BEGID (EO)
-    Benanntes Gebiet: FR_Benanntes Gebiet
-    Benanntes Gebiet Lokalisationstest: FR_Benanntes Gebiet Lokalisationstest
+    BB Symbole: CS Symbole
+    BB-Flächen TS1/TS2 kleiner 100qm: CS-Surfaces NT1/NT2 inferieur 100m2
+    BB-Flächen TS3 kleiner 1000qm: CS-Surfaces NT3 inferieur 1000m2
+    BB-Flächen TS4/TS5 kleiner 2500qm: CS-Surfaces NT4/NT5 inferieur 2500m2
+    BB-Flächen kleiner 10qm pro LS: CS-Surfaces inferieur 10m2 par BF
+    BEGID (BB): BEGID (CS)
+    BEGID (EO): BEGID (OD)
+    Benanntes Gebiet: lieu denommes
+    Benanntes Gebiet Lokalisationstest: lieu_denommes test sur les localisations
     Bodenbedeckung: Couverture du sol
-    Bodenbedeckungskanten: FR_Bodenbedeckungskanten
-    EO Flaechenelemete: FR_EO Flaechenelemete
-    EO Linienelemente: FR_EO Linienelemente
-    EO Punktelemente: FR_EO Punktelemente
-    EO-Flächenelemente (Netz): FR_EO-Flächenelemente (Netz)
-    EO-Linienelemente (Netz): FR_EO-Linienelemente (Netz)
-    EO-Punkt: FR_EO-Punkt
-    EO.Flaechenelemente: FR_EO.Flaechenelemente
-    EO.Linienelemente: FR_EO.Linienelemente
-    Einzelobjekte Flaechenelement: FR_Einzelobjekte Flaechenelement
-    Einzelobjekte Linienelement: FR_Einzelobjekte Linienelement
-    Einzelobjekte Punktelement: FR_Einzelobjekte Punktelement
-    Entstehung -> Stil -> Klassifizieren: FR_Entstehung -> Stil -> Klassifizieren
-    Flurnamen: FR_Flurnamen
-    GEB.Nachführung: FR_GEB.Nachführung
-    GP Genauigkeit: FR_GP Genauigkeit
-    GP Zuverlaessigkeit: FR_GP Zuverlaessigkeit
-    GP nicht exakt definiert: FR_GP nicht exakt definiert
-    GP unversichert: FR_GP unversichert
-    GP zuv: FR_GP zuv
-    GP's ausserhalb Grenzlinien: FR_GP's ausserhalb Grenzlinien
-    GP-Genauigkeiten schlechter AV93-Qalitaet: FR_GP-Genauigkeiten schlechter AV93-Qalitaet
-    GRUDIS-LS-Aufruf: FR_GRUDIS-LS-Aufruf
-    Gebaeudeeingang: Entree batiment
-    Gebaeudeeingang Lokalisationstest: FR_Gebaeudeeingang Lokalisationstest
-    Gebäude > 12m2 ohne Eingang: FR_Gebäude > 12m2 ohne Eingang
-    Gebäude kleiner 12qm: FR_Gebäude kleiner 12qm
-    Geländename: FR_Geländename
+    Bodenbedeckungskanten: Bords de la couverture du sol
+    EO Flaechenelemete: OD Element_surfacique
+    EO Linienelemente: OD Element_lineaire
+    EO Punktelemente: OD Element_ponctuel
+    EO-Flächenelemente (Netz): OD Element_surfacique (Reseau)
+    EO-Linienelemente (Netz): OD Element_lineaire (Reseau)
+    EO-Punkt: OD Point
+    EO.Flaechenelemente: OD.Element_surfacique
+    EO.Linienelemente: OD.Element_lineaire
+    Einzelobjekte Flaechenelement: Objet_divers Element_surfacique
+    Einzelobjekte Linienelement: Objet_divers Element_lineaire
+    Einzelobjekte Punktelement: Objet_divers Element_ponctuel
+    Entstehung -> Stil -> Klassifizieren: origine -> Style -> Classification
+    Flurnamen: Nom_local
+    GEB.Nachführung: BAT.Suite
+    GP Genauigkeit: PL precision
+    GP Zuverlaessigkeit: PL fiabilite
+    GP nicht exakt definiert: PL non defini exactement
+    GP unversichert: PL non verifie
+    GP zuv: PL fiable
+    GP's ausserhalb Grenzlinien: PL exterieur
+    GP-Genauigkeiten schlechter AV93-Qalitaet: PL-Precision inferieur MO93-Qualite
+    GRUDIS-LS-Aufruf: GRUDIS-BF-Appel
+    Gebaeudeeingang: Entree_batiment
+    Gebaeudeeingang Lokalisationstest: Entree_batiment test sur les localisations
+    Gebäude > 12m2 ohne Eingang: Batiment > 12m2 sans entree
+    Gebäude kleiner 12qm: Batiment < 12m2
+    Geländename: nom du site
     Gemeinde: Commune
-    Gemeindegrenze: Limite commune
-    Gemeindegrenzen-swisstopo: FR_Gemeindegrenzen-swisstopo
-    Gewässernetz (BB): FR_Gewässernetz (BB)
-    Grst-Nr: FR_Grst-Nr
-    Grundstuecke: FR_Grundstuecke
-    Grundstücke: FR_Grundstücke
+    Gemeindegrenze: Limites_commune
+    Gemeindegrenzen-swisstopo: Limites_commune-swisstopo
+    Gewässernetz (BB): hydrographie (CS)
+    Grst-Nr: Immeuble-Nr
+    Grundstuecke: Immeuble
+    Grundstücke: Immeuble
     HFP1: PFA1
     HFP2: PFA2
-    HGP's ausserhalb Grenzlinien: FR_HGP's ausserhalb Grenzlinien
-    HausnummerPos: PosNumero maison
-    HausnummerPos Lokalisationstest: FR_HausnummerPos Lokalisationstest
-    Hilfslinie: FR_Hilfslinie
-    Hochspannungsfreileitung: FR_Hochspannungsfreileitung
-    Hoehenfixpunkte 1: FR_Hoehenfixpunkte 1
-    Hoehenfixpunkte 2: FR_Hoehenfixpunkte 2
-    Hoheitsgrenzpunkte (schoener Stein): FR_Hoheitsgrenzpunkte (schoener Stein)
-    Hoheitsgrenzpunkte Genauigkeit: FR_Hoheitsgrenzpunkte Genauigkeit
-    Hoheitsgrenzpunkte Zuverlässigkeit: FR_Hoheitsgrenzpunkte Zuverlässigkeit
-    Hoheitsgrenzpunkte nicht exakt definiert: FR_Hoheitsgrenzpunkte nicht exakt definiert
-    Hoheitsgrenzpunkte unversichert: FR_Hoheitsgrenzpunkte unversichert
-    Isolierte Uebrigen Gebaeudeteile Flachen: FR_Isolierte Uebrigen Gebaeudeteile
-      Flachen
-    Isolierte Uebrigen Gebaeudeteile Linien: FR_Isolierte Uebrigen Gebaeudeteile Linien
-    Isolierte Uebrigen Gebaeudeteile Punkte: FR_Isolierte Uebrigen Gebaeudeteile Punkte
-    Kantonsgrenze: FR_Kantonsgrenze
-    Kuerzeste Linie Lokalisationstest: FR_Kuerzeste Linie Lokalisationstest
-    Kürzeste Linie: FR_Kürzeste Linie
+    HGP's ausserhalb Grenzlinien: Point_limite_ter exterieur
+    HausnummerPos: numero_maisonPos
+    HausnummerPos Lokalisationstest: numero_maisonPos test sur les localisations
+    Hilfslinie: Ligne_auxiliaire
+    Hochspannungsfreileitung: ligne_aerienne_a_haute_tension
+    Hoehenfixpunkte 1: Point fixe altimétrique 1
+    Hoehenfixpunkte 2: Point fixe altimétrique 2
+    Hoheitsgrenzpunkte (schoener Stein): Point_limite_ter (Borne territoriale)
+    Hoheitsgrenzpunkte Genauigkeit: Point_limite_ter Precision
+    Hoheitsgrenzpunkte Zuverlässigkeit: Point_limite_ter Fiabilite
+    Hoheitsgrenzpunkte nicht exakt definiert: non defini exactement
+    Hoheitsgrenzpunkte unversichert: Point_limite_ter non verifiee
+    Isolierte Uebrigen Gebaeudeteile Flachen: Morceau de batiment isole Surface
+    Isolierte Uebrigen Gebaeudeteile Linien: Morceau de batiment isole ligne
+    Isolierte Uebrigen Gebaeudeteile Punkte: Morceau de batiment isole point
+    Kantonsgrenze: Limites_canton
+    Kuerzeste Linie Lokalisationstest: ligne minimale test sur les localisations
+    Kürzeste Linie: ligne minimale
     LFP1: PFP1
-    LFP1 + LFP2 Schweiz: FR_LFP1 + LFP2 Schweiz
+    LFP1 + LFP2 Schweiz: PFP1 + PFP2 Suisse
     LFP2: PFP2
     LFP3: PFP3
-    LFP3 Nachführung: FR_LFP3 Nachführung
-    LFP3 ausserhalb Gemeinde: FR_LFP3 ausserhalb Gemeinde
-    LFP3 pro Toleranzstufe: FR_LFP3 pro Toleranzstufe
-    Label ausserhalb Gs: FR_Label ausserhalb Gs
-    Lagefixpunkte 1: FR_Lagefixpunkte 1
-    Lagefixpunkte 2: FR_Lagefixpunkte 2
-    Liegenschaften: Biens fonds
-    Liegenschaften Qualitaet: FR_Liegenschaften Qualitaet
-    Liegenschaften mit Flächendifferenzen: FR_Liegenschaften mit Flächendifferenzen
-    Lokalisation: Localisation
-    LokalisationsName: Nom localisation
-    LokalisationsNamePos: PosNom localisation
-    NK Mini-Flächen (Punkt): FR_NK Mini-Flächen (Punkt)
-    Nr Gs(LS): FR_Nr Gs(LS)
-    Nr Gs(LS-Teil): FR_Nr Gs(LS-Teil)
-    Nr Gs(SDR Teil): FR_Nr Gs(SDR Teil)
-    Nr Gs(SDR): FR_Nr Gs(SDR)
-    Objektname: Nom objet
-    Ortsname: Nom de lieu
-    PLZ Ortschaft: FR_PLZ Ortschaft
-    Plan-Nr. Pos: FR_Plan-Nr. Pos
-    Planeinteilung: FR_Planeinteilung
-    Punktzeichen: FR_Punktzeichen
-    Rohrleit. Fläche: FR_Rohrleit. Fläche
-    Rohrleit. Linien: FR_Rohrleit. Linien
-    Rohrleit. Objekte: FR_Rohrleit. Objekte
-    Rohrleit. Punkt: FR_Rohrleit. Punkt
-    Rutschgebiet: FR_Rutschgebiet
-    Rutschgebiet Pos: FR_Rutschgebiet Pos
-    SDR: FR_SDR
-    SDR Qualitaet: FR_SDR Qualitaet
-    Selbstrecht mit Flaechendifferenzen: FR_Selbstrecht mit Flaechendifferenzen
+    LFP3 Nachführung: PFP3 Suite
+    LFP3 ausserhalb Gemeinde: PFP3 exterieur commune
+    LFP3 pro Toleranzstufe: PFP3 par niveau_tolerance
+    Label ausserhalb Gs: Label exterieur commune
+    Lagefixpunkte 1: Position PFP 1
+    Lagefixpunkte 2: Position PFP 2
+    Liegenschaften: Biens_fonds
+    Liegenschaften Qualitaet: Biens_fonds Qualite
+    Liegenschaften mit Flächendifferenzen: Biens_fonds avec differences de surface
+    Lokalisation: localisation
+    LokalisationsName: NomLocalisation
+    LokalisationsNamePos: NomLocalisationPos
+    NK Mini-Flächen (Punkt): NO Mini-Surfaces (Point)
+    Nr Gs(LS): Nr Imm(BF)
+    Nr Gs(LS-Teil): Nr Imm(BF-Part)
+    Nr Gs(SDR Teil): Nr Imm(DDP-Part)
+    Nr Gs(SDR): Nr Imm(DDP)
+    Objektname: NomObjet
+    Ortsname: Nom_de_lieu
+    PLZ Ortschaft: NPA Localite
+    Plan-Nr. Pos: Plan-Nr. Pos
+    Planeinteilung: Repartitions_plans
+    Punktzeichen: signe
+    Rohrleit. Fläche: Conduites. Surface
+    Rohrleit. Linien: Conduites. Ligne
+    Rohrleit. Objekte: Conduites. Objet
+    Rohrleit. Punkt: Conduites. Point
+    Rutschgebiet: Zones_glissement
+    Rutschgebiet Pos: Zones_glissement Pos
+    SDR: DDP
+    SDR Qualitaet: DDP Qualite
+    Selbstrecht mit Flaechendifferenzen: DDP avec differences de surface
     Signalpunkt: Signal
-    Spinnennetz: FR_Spinnennetz
-    Strassenstueck (anfangspunkt): FR_Strassenstueck (anfangspunkt)
-    Strassenstueck (anfangspunkt) Lokalisationstest: FR_Strassenstueck (anfangspunkt)
-      Lokalisationstest
-    Strassenstueck (geometrie): FR_Strassenstueck (geometrie)
-    Strassenstueck (geometrie) Lokalisationstest: FR_Strassenstueck (geometrie) Lokalisationstest
-    Toleranzstufen: FR_Toleranzstufen
-    Verkehrsnetz (BB): FR_Verkehrsnetz (BB)
-    Wald kleiner 800qm: FR_Wald kleiner 800qm
-    Wasserbecken kleiner 20qm: FR_Wasserbecken kleiner 20qm
-    proj Grst-Nr: FR_proj Grst-Nr
-    proj Liegenschaften Qualitaet: FR_proj Liegenschaften Qualitaet
-    proj SDR Qualitaet: FR_proj SDR Qualitaet
-    proj. Gebaeude: FR_proj. Gebaeude
-    proj. Gemeindegrenze: FR_proj. Gemeindegrenze
-    proj. Liegenschaften: FR_proj. Liegenschaften
-    proj. SDR: FR_proj. SDR
-    proj_Grst-Nr: FR_proj_Grst-Nr
-    schmale bestockte Fläche > 800 qm: FR_schmale bestockte Fläche > 800 qm
+    Spinnennetz: toile d'arraignée
+    Strassenstueck (anfangspunkt): Troncon (point_de_depart)
+    Strassenstueck (anfangspunkt) Lokalisationstest: Troncon (point_de_depart) test sur les localisations
+    Strassenstueck (geometrie): Troncon (geometrie)
+    Strassenstueck (geometrie) Lokalisationstest: Troncon (geometrie) test sur les localisations
+    Toleranzstufen: niveau_tolerance
+    Verkehrsnetz (BB): reseau routier (CS)
+    Wald kleiner 800qm: foret < 800m2
+    Wasserbecken kleiner 20qm: bassin eau < 20m2
+    proj Grst-Nr: proj Imm-Nr
+    proj Liegenschaften Qualitaet:  proj Biens_fonds Qualite
+    proj SDR Qualitaet: proj DDP Qualite
+    proj. Gebaeude: proj. Batiment
+    proj. Gemeindegrenze:  proj. Limite_commune
+    proj. Liegenschaften: proj. Biens_fonds
+    proj. SDR: proj. DDP
+    proj_Grst-Nr: proj_Imm-Nr
+    schmale bestockte Fläche > 800 qm: cordon_boise surface > 800 qm
 style_category:
   BB Symbole:
-    Gewaesser.Schilfguertel: FR_Gewaesser.Schilfguertel
-    Gewaesser.fliessendes: FR_Gewaesser.fliessendes
-    Gewaesser.stehendes: FR_Gewaesser.stehendes
-    befestigt.Wasserbecken: FR_befestigt.Wasserbecken
-    humusiert.Intensivkultur.Reben: FR_humusiert.Intensivkultur.Reben
-    ungültiger Wert: FR_ungültiger Wert
+    Gewaesser.Schilfguertel: eau.roseliere
+    Gewaesser.fliessendes: eau.ecoulement
+    Gewaesser.stehendes: eau.eau_stagnante
+    befestigt.Wasserbecken: revetement_dur.bassin
+    humusiert.Intensivkultur.Reben: verte.culture_intensive.vigne
+    ungültiger Wert: valeur invalide
   Bodenbedeckung:
-    AV93: FR_AV93
-    Befestigt Bahn: FR_Befestigt Bahn
-    Befestigt Flugplatz: FR_Befestigt Flugplatz
-    Befestigt Strasse Weg: FR_Befestigt Strasse Weg
-    Befestigt Trottoir: FR_Befestigt Trottoir
-    Befestigt Verkehrsinsel: FR_Befestigt Verkehrsinsel
-    Befestigt Wasserbecken: FR_Befestigt Wasserbecken
-    Befestigt uebrige befestigte: FR_Befestigt uebrige befestigte
-    Bestockt Wytweide dicht: FR_Bestockt Wytweide dicht
-    Bestockt Wytweide offen: FR_Bestockt Wytweide offen
-    Bestockt geschlossener Wald: FR_Bestockt geschlossener Wald
-    Bestockt uebrige bestockte: FR_Bestockt uebrige bestockte
-    FALSCHE ART: FR_FALSCHE ART
-    Gebaeude: FR_Gebaeude
-    Gewaesser Schilfguertel: FR_Gewaesser Schilfguertel
-    Gewaesser fliessendes: FR_Gewaesser fliessendes
-    Gewaesser stehendes: FR_Gewaesser stehendes
-    Humusiert Acker Wiese Weide: FR_Humusiert Acker Wiese Weide
-    Humusiert Gartenanlage: FR_Humusiert Gartenanlage
-    Humusiert Hoch Flachmoor: FR_Humusiert Hoch Flachmoor
-    Humusiert Intensivkultur Reben: FR_Humusiert Intensivkultur Reben
-    Humusiert Intensivkultur uebrige Intensivkultur: FR_Humusiert Intensivkultur uebrige
-      Intensivkultur
-    Humusiert uebrige humusierte: FR_Humusiert uebrige humusierte
-    PEP: FR_PEP
-    PN_def_anerkannt: FR_PN_def_anerkannt
-    PN_prov_anerkannt: FR_PN_prov_anerkannt
-    PV74: FR_PV74
-    Vegetationslos Abbau Deponie: FR_Vegetationslos Abbau Deponie
-    Vegetationslos Fels: FR_Vegetationslos Fels
-    Vegetationslos Geroell Sand: FR_Vegetationslos Geroell Sand
-    Vegetationslos Gletscher Firn: FR_Vegetationslos Gletscher Firn
-    Vegetationslos uebrige vegetationslose: FR_Vegetationslos uebrige vegetationslose
-    weitere: FR_weitere
+    AV93: MO93
+    Befestigt Bahn: revetement_dur chemin_de_fer
+    Befestigt Flugplatz: revetement_dur place_aviation
+    Befestigt Strasse Weg: revetement_dur route_chemin
+    Befestigt Trottoir: revetement_dur trottoir
+    Befestigt Verkehrsinsel: revetement_dur.ilot
+    Befestigt Wasserbecken: revetement_dur bassin
+    Befestigt uebrige befestigte: revetement_dur autre_revetement_dur
+    Bestockt Wytweide dicht: boisee paturage_boise_dense
+    Bestockt Wytweide offen: boisee paturage_boise_ouvert
+    Bestockt geschlossener Wald: boisee foret_dense
+    Bestockt uebrige bestockte: boisee autre_boisee
+    FALSCHE ART: FAUX GENRE
+    Gebaeude: batiment
+    Gewaesser Schilfguertel: eau roseliere
+    Gewaesser fliessendes: eau ecoulement
+    Gewaesser stehendes: eau eau_stagnante
+    Humusiert Acker Wiese Weide: verte champ_pre_paturage
+    Humusiert Gartenanlage: verte jardin
+    Humusiert Hoch Flachmoor: verte tourbiere
+    Humusiert Intensivkultur Reben: verte culture_intensive vigne
+    Humusiert Intensivkultur uebrige Intensivkultur: verte culture_intensive autre_culture_intensive
+    Humusiert uebrige humusierte: verte autre_verte
+    PEP: PEP
+    PN_def_anerkannt: PN_def_reconnu
+    PN_prov_anerkannt: PN_prov_reconnu
+    PV74: MP74
+    Vegetationslos Abbau Deponie: sans_vegetation graviere_decharge
+    Vegetationslos Fels: sans_vegetation rocher
+    Vegetationslos Geroell Sand: sans_vegetation eboulis_sable
+    Vegetationslos Gletscher Firn: sans_vegetation glacier_neve
+    Vegetationslos uebrige vegetationslose: sans_vegetation autre_sans_vegetation
+    weitere: autre
   EO Flaechenelemete:
-    AV93: FR_AV93
-    Achse: FR_Achse
-    Aussichtsturm: FR_Aussichtsturm
-    Bahngeleise: FR_Bahngeleise
-    Bahnsteig: FR_Bahnsteig
-    Bezugspunkt: FR_Bezugspunkt
-    Bildstock_Kruzifix: FR_Bildstock_Kruzifix
-    Bruecke_Passerelle: FR_Bruecke_Passerelle
-    Brunnen: FR_Brunnen
-    Denkmal: FR_Denkmal
-    Druckleitung: FR_Druckleitung
-    Faehre: FR_Faehre
-    Gondelbahn_Sesselbahn: FR_Gondelbahn_Sesselbahn
-    Grotte_Hoehleneingang: FR_Grotte_Hoehleneingang
-    Hochkamin: FR_Hochkamin
-    Hochspannungsfreileitung: FR_Hochspannungsfreileitung
-    Landungssteg: FR_Landungssteg
-    Lawinenverbauung: FR_Lawinenverbauung
-    Luftseilbahn: FR_Luftseilbahn
-    Mast_Antenne: FR_Mast_Antenne
-    Materialseilbahn: FR_Materialseilbahn
-    Mauer: FR_Mauer
-    PEP: FR_PEP
-    PN_def_anerkannt: FR_PN_def_anerkannt
-    PN_prov_anerkannt: FR_PN_prov_anerkannt
-    PV74: FR_PV74
-    Pfeiler: FR_Pfeiler
-    Quelle: FR_Quelle
-    Reservoir: FR_Reservoir
-    Rinnsal: FR_Rinnsal
-    Ruine_archaeologisches_Objekt: FR_Ruine_archaeologisches_Objekt
-    Schwelle: FR_Schwelle
-    Silo_Turm_Gasometer: FR_Silo_Turm_Gasometer
-    Skilift: FR_Skilift
-    Tunnel_Unterfuehrung_Galerie: FR_Tunnel_Unterfuehrung_Galerie
-    Uferverbauung: FR_Uferverbauung
-    Unterstand: FR_Unterstand
-    eingedoltes_oeffentliches_Gewaesser: FR_eingedoltes_oeffentliches_Gewaesser
-    einzelner_Fels: FR_einzelner_Fels
-    massiver_Sockel: FR_massiver_Sockel
-    schmale_bestockte_Flaeche: FR_schmale_bestockte_Flaeche
-    schmaler_Weg: FR_schmaler_Weg
-    uebriger_Gebaeudeteil: FR_uebriger_Gebaeudeteil
-    unterirdisches_Gebaeude: FR_unterirdisches_Gebaeude
-    weitere: FR_weitere
-    wichtige_Treppe: FR_wichtige_Treppe
-    wichtiger_Einzelbaum: FR_wichtiger_Einzelbaum
+    AV93: MO93
+    Achse: Axe
+    Aussichtsturm: tour_panoramique
+    Bahngeleise: voie_ferree
+    Bahnsteig: quai de chemin de fer
+    Bezugspunkt: point_de_reference
+    Bildstock_Kruzifix: statue_crucifix
+    Bruecke_Passerelle: pont_passerelle
+    Brunnen: fontaine
+    Denkmal: monument
+    Druckleitung: conduite_forcee
+    Faehre: bac
+    Gondelbahn_Sesselbahn: telecabine_telesiege
+    Grotte_Hoehleneingang: grotte_entree_de_caverne
+    Hochkamin: cheminee
+    Hochspannungsfreileitung: ligne_aerienne_a_haute_tension
+    Landungssteg: debarcadere
+    Lawinenverbauung: paravalanche
+    Luftseilbahn: telepherique
+    Mast_Antenne: mat_antenne
+    Materialseilbahn: telepherique_de_chantier
+    Mauer: mur
+    PEP: PEP
+    PN_def_anerkannt: PN_def_reconnu
+    PN_prov_anerkannt: PN_prov_reconnu
+    PV74: MP74
+    Pfeiler: pilier
+    Quelle: source
+    Reservoir: reservoir
+    Rinnsal: ru
+    Ruine_archaeologisches_Objekt: ruine_objet_archeologique
+    Schwelle: seuil
+    Silo_Turm_Gasometer: silo_tour_gazometre
+    Skilift: skilift
+    Tunnel_Unterfuehrung_Galerie: tunnel_passage_inferieur_galerie
+    Uferverbauung: ouvrage_de_protection_des_rives
+    Unterstand: couvert_independant
+    eingedoltes_oeffentliches_Gewaesser: eau_canalisee_souterraine
+    einzelner_Fels: bloc_erratique
+    massiver_Sockel: socle_massif
+    schmale_bestockte_Flaeche: cordon_boise
+    schmaler_Weg: sentier
+    uebriger_Gebaeudeteil: autre_corps_de_batiment
+    unterirdisches_Gebaeude: batiment_souterrain
+    weitere: autre
+    wichtige_Treppe: escalier_important
+    wichtiger_Einzelbaum: arbre_isole_important
   EO Linienelemente:
-    AV93: FR_AV93
-    Achse: FR_Achse
-    Aussichtsturm: FR_Aussichtsturm
-    Bahngeleise: FR_Bahngeleise
-    Bahnsteig: FR_Bahnsteig
-    Bezugspunkt: FR_Bezugspunkt
-    Bildstock_Kruzifix: FR_Bildstock_Kruzifix
-    Bruecke_Passerelle: FR_Bruecke_Passerelle
-    Brunnen: FR_Brunnen
-    Denkmal: FR_Denkmal
-    Druckleitung: FR_Druckleitung
-    Faehre: FR_Faehre
-    Gondelbahn_Sesselbahn: FR_Gondelbahn_Sesselbahn
-    Grotte_Hoehleneingang: FR_Grotte_Hoehleneingang
-    Hochkamin: FR_Hochkamin
-    Hochspannungsfreileitung: FR_Hochspannungsfreileitung
-    Landungssteg: FR_Landungssteg
-    Lawinenverbauung: FR_Lawinenverbauung
-    Luftseilbahn: FR_Luftseilbahn
-    Mast_Antenne: FR_Mast_Antenne
-    Materialseilbahn: FR_Materialseilbahn
-    Mauer: FR_Mauer
-    PEP: FR_PEP
-    PN.PN_def_anerkannt: FR_PN.PN_def_anerkannt
-    PN.PN_prov_anerkannt: FR_PN.PN_prov_anerkannt
-    PV74: FR_PV74
-    Pfeiler: FR_Pfeiler
-    Quelle: FR_Quelle
-    Reservoir: FR_Reservoir
-    Rinnsal: FR_Rinnsal
-    Ruine_archaeologisches_Objekt: FR_Ruine_archaeologisches_Objekt
-    Schwelle: FR_Schwelle
-    Silo_Turm_Gasometer: FR_Silo_Turm_Gasometer
-    Skilift: FR_Skilift
-    Tunnel_Unterfuehrung_Galerie: FR_Tunnel_Unterfuehrung_Galerie
-    Uferverbauung: FR_Uferverbauung
-    Unterstand: FR_Unterstand
-    eingedoltes_oeffentliches_Gewaesser: FR_eingedoltes_oeffentliches_Gewaesser
-    einzelner_Fels: FR_einzelner_Fels
-    massiver_Sockel: FR_massiver_Sockel
-    schmale_bestockte_Flaeche: FR_schmale_bestockte_Flaeche
-    schmaler_Weg: FR_schmaler_Weg
-    uebriger_Gebaeudeteil: FR_uebriger_Gebaeudeteil
-    unterirdisches_Gebaeude: FR_unterirdisches_Gebaeude
-    weitere: FR_weitere
-    wichtige_Treppe: FR_wichtige_Treppe
-    wichtiger_Einzelbaum: FR_wichtiger_Einzelbaum
+    AV93: MO93
+    Achse: Axe
+    Aussichtsturm: tour_panoramique
+    Bahngeleise: voie_ferree
+    Bahnsteig: quai de chemin de fer
+    Bezugspunkt: point_de_reference
+    Bildstock_Kruzifix: statue_crucifix
+    Bruecke_Passerelle: pont_passerelle
+    Brunnen: fontaine
+    Denkmal: monument
+    Druckleitung: conduite_forcee
+    Faehre: bac
+    Gondelbahn_Sesselbahn: telecabine_telesiege
+    Grotte_Hoehleneingang: grotte_entree_de_caverne
+    Hochkamin: cheminee
+    Hochspannungsfreileitung: ligne_aerienne_a_haute_tension
+    Landungssteg: debarcadere
+    Lawinenverbauung: paravalanche
+    Luftseilbahn: telepherique
+    Mast_Antenne: mat_antenne
+    Materialseilbahn: telepherique_de_chantier
+    Mauer: mur
+    PEP: PEP
+    PN_def_anerkannt: PN_def_reconnu
+    PN_prov_anerkannt: PN_prov_reconnu
+    PV74: MP74
+    Pfeiler: pilier
+    Quelle: source
+    Reservoir: reservoir
+    Rinnsal: ru
+    Ruine_archaeologisches_Objekt: ruine_objet_archeologique
+    Schwelle: seuil
+    Silo_Turm_Gasometer: silo_tour_gazometre
+    Skilift: skilift
+    Tunnel_Unterfuehrung_Galerie: tunnel_passage_inferieur_galerie
+    Uferverbauung: ouvrage_de_protection_des_rives
+    Unterstand: couvert_independant
+    eingedoltes_oeffentliches_Gewaesser: eau_canalisee_souterraine
+    einzelner_Fels: bloc_erratique
+    massiver_Sockel: socle_massif
+    schmale_bestockte_Flaeche: cordon_boise
+    schmaler_Weg: sentier
+    uebriger_Gebaeudeteil: autre_corps_de_batiment
+    unterirdisches_Gebaeude: batiment_souterrain
+    weitere: autre
+    wichtige_Treppe: escalier_important
+    wichtiger_Einzelbaum: arbre_isole_important
   EO Punktelemente:
-    AV93: FR_AV93
-    Aussichtsturm: FR_Aussichtsturm
-    Bezugspunkt: FR_Bezugspunkt
-    Denkmal: FR_Denkmal
-    Einzelner Fels: FR_Einzelner Fels
-    Mast Antenne: FR_Mast Antenne
-    Mast_Antenne: FR_Mast_Antenne
-    PEP: FR_PEP
-    PN_def_anerkannt: FR_PN_def_anerkannt
-    PN_prov_anerkannt: FR_PN_prov_anerkannt
-    PV74: FR_PV74
-    Quelle: FR_Quelle
-    Restliche EO-Arten: FR_Restliche EO-Arten
-    Weitere: FR_Weitere
+    AV93: MO93
+    Aussichtsturm: tour_panoramique
+    Bezugspunkt: point_de_reference
+    Denkmal: monument
+    Einzelner Fels: bloc erratique
+    Mast Antenne: mat_antenne
+    Mast_Antenne: mat_antenne
+    PEP: PEP
+    PN_def_anerkannt: PN_def_reconnu
+    PN_prov_anerkannt: PN_prov_reconnu
+    PV74: MP74
+    Quelle: source
+    Restliche EO-Arten: Restant OD-Genre
+    Weitere: Autre
     Wichtiger Einzelbaum: FR_Wichtiger Einzelbaum
-    einzelner_Fels: FR_einzelner_Fels
-    restliche EO-Arten: FR_restliche EO-Arten
-    weitere: FR_weitere
-    wichtiger_Einzelbaum: FR_wichtiger_Einzelbaum
+    einzelner_Fels: bloc_erratique
+    restliche EO-Arten: Restant OD-Genre
+    weitere: autre
+    wichtiger_Einzelbaum: arbre_isole_important
   EO-Flächenelemente (Netz):
-    Bruecke_Passerelle: FR_Bruecke_Passerelle
-    Tunnel_Unterfuehrung_Galerie: FR_Tunnel_Unterfuehrung_Galerie
-    eingedoltes_oeffentliches_Gewaesser: FR_eingedoltes_oeffentliches_Gewaesser
+    Bruecke_Passerelle: pont_passerelle
+    Tunnel_Unterfuehrung_Galerie: tunnel_passage_inferieur_galerie
+    eingedoltes_oeffentliches_Gewaesser: eau_canalisee_souterraine
   EO-Linienelemente (Netz):
-    Bruecke_Passerelle: FR_Bruecke_Passerelle
+    Bruecke_Passerelle: pont_passerelle
     Rinnsal: FR_Rinnsal
-    Tunnel_Unterfuehrung_Galerie: FR_Tunnel_Unterfuehrung_Galerie
-    eingedoltes_oeffentliches_Gewaesser: FR_eingedoltes_oeffentliches_Gewaesser
-    schmaler_Weg: FR_schmaler_Weg
-    wichtige_Treppe: FR_wichtige_Treppe
+    Tunnel_Unterfuehrung_Galerie: tunnel_passage_inferieur_galerie
+    eingedoltes_oeffentliches_Gewaesser: eau_canalisee_souterraine
+    schmaler_Weg: sentier
+    wichtige_Treppe: escalier_important
   EO-Punkt:
-    Aussichtsturm (nur PEP): FR_Aussichtsturm (nur PEP)
-    Bezugspunkt: FR_Bezugspunkt
-    Denkmal: FR_Denkmal
-    Faehre: FR_Faehre
-    Grotte_Hoehleneingang: FR_Grotte_Hoehleneingang
-    Kruzifix: FR_Kruzifix
-    Mast_Antenne: FR_Mast_Antenne
-    Quelle: FR_Quelle
-    einzelner_Fels: FR_einzelner_Fels
-    nicht_zulaesslig: FR_nicht_zulaesslig
-    wichtiger_Einzelbaum: FR_wichtiger_Einzelbaum
+    Aussichtsturm (nur PEP): tour_panoramique (que PEP)
+    Bezugspunkt: point_de_reference
+    Denkmal: cheminee
+    Faehre: bac
+    Grotte_Hoehleneingang: grotte_entree_de_caverne
+    Kruzifix:  crucifix
+    Mast_Antenne: mat_antenne
+    Quelle: source
+    einzelner_Fels: bloc_erratique
+    nicht_zulaesslig: pas autorise
+    wichtiger_Einzelbaum: arbre_isole_important
   GP Zuverlaessigkeit:
-    unzuverlässig: FR_unzuverlässig
-    zuverlässig: FR_zuverlässig
+    unzuverlässig: douteux
+    zuverlässig: fiable
   GP zuv:
-    unzuverlässig: FR_unzuverlässig
-    zuverlässig: FR_zuverlässig
+    unzuverlässig: douteux
+    zuverlässig: fiable
   Gewässernetz (BB):
-    Gewaesser.Schilfguertel: FR_Gewaesser.Schilfguertel
-    Gewaesser.fliessendes: FR_Gewaesser.fliessendes
-    Gewaesser.stehendes: FR_Gewaesser.stehendes
+    Gewaesser.Schilfguertel: eau.roseliere
+    Gewaesser.fliessendes: eau.ecoulement
+    Gewaesser.stehendes: eau.eau_stagnante
   Hoheitsgrenzpunkte Zuverlässigkeit:
-    unzuverlässig: FR_unzuverlässig
-    zuverlässig: FR_zuverlässig
+    unzuverlässig: douteux
+    zuverlässig: fiable
   Liegenschaften:
-    AV93: FR_AV93
-    PEP: FR_PEP
-    PN_def_anerkannt: FR_PN_def_anerkannt
-    PN_prov_anerkannt: FR_PN_prov_anerkannt
-    PV74: FR_PV74
-    weitere: FR_weitere
+    AV93: MO93
+    PEP: PEP
+    PN_def_anerkannt: PN_def_reconnu
+    PN_prov_anerkannt: PN_prov_reconnu
+    PV74: MP74
+    weitere: autre
   Liegenschaften Qualitaet:
-    AV93: FR_AV93
-    PEP: FR_PEP
-    PN_def_anerkannt: FR_PN_def_anerkannt
-    PN_prov_anerkannt: FR_PN_prov_anerkannt
-    PV74: FR_PV74
-    weitere: FR_weitere
+    AV93: MO93
+    PEP: PEP
+    PN_def_anerkannt: PN_def_reconnu
+    PN_prov_anerkannt: PN_prov_reconnu
+    PV74: MP74
+    weitere: autre
   Punktzeichen:
     ? ''
-    : FR_
-    Bolzen: FR_Bolzen
-    Kreuz: FR_Kreuz
-    Rohr: FR_Rohr
-    Stein: FR_Stein
+    :
+    Bolzen: cheville
+    Kreuz: croix
+    Rohr: tuyau
+    Stein: borne
   Rohrleit. Linien:
-    Gas: FR_Gas
-    Oel: FR_Oel
-    weitere: FR_weitere
+    Gas: gaz
+    Oel: petrole
+    weitere: autre
   SDR Qualitaet:
-    AV93: FR_AV93
-    PEP: FR_PEP
-    PN_def_anerkannt: FR_PN_def_anerkannt
-    PN_prov_anerkannt: FR_PN_prov_anerkannt
-    PV74: FR_PV74
-    weitere: FR_weitere
+    AV93: MO93
+    PEP: PEP
+    PN_def_anerkannt: PN_def_reconnu
+    PN_prov_anerkannt: PN_prov_reconnu
+    PV74: MP74
+    weitere: autre
   Toleranzstufen:
-    TS1: FR_TS1
-    TS2: FR_TS2
-    TS3: FR_TS3
-    TS4: FR_TS4
-    TS5: FR_TS5
+    TS1: NT1
+    TS2: NT2
+    TS3: NT3
+    TS4: NT4
+    TS5: NT5
   Verkehrsnetz (BB):
-    befestigt.Bahn: FR_befestigt.Bahn
-    befestigt.Strasse_Weg: FR_befestigt.Strasse_Weg
-    befestigt.Trottoir: FR_befestigt.Trottoir
-    befestigt.Verkehrsinsel: FR_befestigt.Verkehrsinsel
+    befestigt.Bahn: revetement_dur.chemin_de_fer
+    befestigt.Strasse_Weg: revetement_dur.route_chemin
+    befestigt.Trottoir: revetement_dur.trottoir
+    befestigt.Verkehrsinsel: revetement_dur.ilot
   proj Liegenschaften Qualitaet:
-    AV93: FR_AV93
-    PEP: FR_PEP
-    PN_def_anerkannt: FR_PN_def_anerkannt
-    PN_prov_anerkannt: FR_PN_prov_anerkannt
-    PV74: FR_PV74
-    weitere: FR_weitere
+    AV93: MO93
+    PEP: PEP
+    PN_def_anerkannt: PN_def_reconnu
+    PN_prov_anerkannt: PN_prov_reconnu
+    PV74: MP74
+    weitere: autre
   proj SDR Qualitaet:
-    AV93: FR_AV93
-    PEP: FR_PEP
-    PN_def_anerkannt: FR_PN_def_anerkannt
-    PN_prov_anerkannt: FR_PN_prov_anerkannt
-    PV74: FR_PV74
-    weitere: FR_weitere
+    AV93: MO93
+    PEP: PEP
+    PN_def_anerkannt: PN_def_reconnu
+    PN_prov_anerkannt: PN_prov_reconnu
+    PV74: MP74
+    weitere: autre
